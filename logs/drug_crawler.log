@@ -1,0 +1,295 @@
+2025-09-15 10:16:48 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 10:16:48 - drug_crawler - INFO - 开始搜索药物: 伊立替康
+2025-09-15 10:16:49 - drug_crawler - ERROR - 爬取药物信息失败 伊立替康: object Response can't be used in 'await' expression
+2025-09-15 10:16:49 - drug_crawler - ERROR - 资源清理失败: object NoneType can't be used in 'await' expression
+2025-09-15 10:48:19 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 10:48:19 - drug_crawler - INFO - 开始搜索药物: 伊立替康
+2025-09-15 10:48:20 - drug_crawler - WARNING - 未找到药物详情链接: 伊立替康
+2025-09-15 10:48:20 - drug_crawler - INFO - 资源清理完成
+2025-09-15 10:48:29 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 10:48:29 - drug_crawler - INFO - 开始搜索药物: 伊立替康
+2025-09-15 10:48:30 - drug_crawler - WARNING - 未找到药物详情链接: 伊立替康
+2025-09-15 10:48:30 - drug_crawler - INFO - 资源清理完成
+2025-09-15 10:48:38 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 10:48:38 - drug_crawler - INFO - 开始搜索药物: 伊立替康
+2025-09-15 10:48:38 - drug_crawler - WARNING - 未找到药物详情链接: 伊立替康
+2025-09-15 10:48:38 - drug_crawler - INFO - 资源清理完成
+2025-09-15 10:49:21 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 10:49:21 - drug_crawler - INFO - 开始搜索药物: 伊立替康
+2025-09-15 10:49:22 - drug_crawler - ERROR - 爬取药物信息失败 伊立替康: 'total_found'
+2025-09-15 10:49:22 - drug_crawler - INFO - 资源清理完成
+2025-09-15 10:49:30 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 10:49:30 - drug_crawler - INFO - 开始搜索药物: 伊立替康
+2025-09-15 10:49:30 - drug_crawler - ERROR - 爬取药物信息失败 伊立替康: 'total_found'
+2025-09-15 10:49:30 - drug_crawler - INFO - 资源清理完成
+2025-09-15 11:35:09 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 11:35:09 - drug_crawler - INFO - 开始搜索药物: 伊立替康
+2025-09-15 11:35:10 - drug_crawler - ERROR - 爬取药物信息失败 伊立替康: 'total_found'
+2025-09-15 11:35:10 - drug_crawler - INFO - 资源清理完成
+2025-09-15 11:36:09 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 11:36:09 - drug_crawler - INFO - 开始搜索药物: 伊立替康
+2025-09-15 11:36:09 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc
+2025-09-15 11:36:09 - drug_crawler - ERROR - 爬取药物信息失败 伊立替康: 'Config' object has no attribute 'jina_enabled'
+2025-09-15 11:36:09 - drug_crawler - INFO - 资源清理完成
+2025-09-15 11:38:00 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 11:38:00 - drug_crawler - INFO - 开始搜索药物: 伊立替康
+2025-09-15 11:38:01 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc
+2025-09-15 11:38:05 - drug_crawler - WARNING - Jina AI处理失败: object dict can't be used in 'await' expression
+2025-09-15 11:38:05 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7
+2025-09-15 11:38:12 - drug_crawler - WARNING - Jina AI处理失败: object dict can't be used in 'await' expression
+2025-09-15 11:38:13 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7
+2025-09-15 11:38:18 - drug_crawler - WARNING - Jina AI处理失败: object dict can't be used in 'await' expression
+2025-09-15 11:38:18 - drug_crawler - ERROR - 所有获取策略都失败: 伊立替康
+2025-09-15 11:38:18 - drug_crawler - INFO - 资源清理完成
+2025-09-15 13:13:44 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 13:13:44 - drug_crawler - INFO - 开始搜索药物: 伊立替康
+2025-09-15 13:13:45 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc
+2025-09-15 13:13:52 - drug_crawler - WARNING - Jina AI处理失败: object dict can't be used in 'await' expression
+2025-09-15 13:13:53 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7
+2025-09-15 13:13:59 - drug_crawler - WARNING - Jina AI处理失败: object dict can't be used in 'await' expression
+2025-09-15 13:13:59 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7
+2025-09-15 13:14:06 - drug_crawler - WARNING - Jina AI处理失败: object dict can't be used in 'await' expression
+2025-09-15 13:14:06 - drug_crawler - ERROR - 所有获取策略都失败: 伊立替康
+2025-09-15 13:14:06 - drug_crawler - INFO - 资源清理完成
+2025-09-15 13:15:55 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 13:15:55 - drug_crawler - INFO - 开始搜索药物: 伊立替康
+2025-09-15 13:15:56 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc
+2025-09-15 13:15:59 - drug_crawler - INFO - 传统爬取成功: 伊立替康
+2025-09-15 13:15:59 - drug_crawler - ERROR - 数据处理失败: 'LoggerManager' object has no attribute 'error'
+2025-09-15 13:15:59 - drug_crawler - INFO - 资源清理完成
+2025-09-15 13:17:19 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 13:17:19 - drug_crawler - INFO - 开始搜索药物: 伊立替康
+2025-09-15 13:17:19 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc
+2025-09-15 13:17:24 - drug_crawler - INFO - 传统爬取成功: 伊立替康
+2025-09-15 13:17:24 - drug_crawler - ERROR - 数据处理失败: 数据处理失败: 'PerformanceLogger' object has no attribute 'timer'
+2025-09-15 13:17:24 - drug_crawler - INFO - 资源清理完成
+2025-09-15 13:18:04 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 13:18:04 - drug_crawler - INFO - 开始搜索药物: 伊立替康
+2025-09-15 13:18:05 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc
+2025-09-15 13:18:08 - drug_crawler - INFO - 传统爬取成功: 伊立替康
+2025-09-15 13:18:08 - drug_crawler - INFO - 药物信息处理完成: 伊立替康
+2025-09-15 13:18:08 - drug_crawler - INFO - 资源清理完成
+2025-09-15 13:31:51 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 13:31:51 - drug_crawler - INFO - 开始搜索药物: 伊立替康
+2025-09-15 13:31:51 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc
+2025-09-15 13:31:56 - drug_crawler - INFO - 传统爬取成功: 伊立替康
+2025-09-15 13:31:56 - drug_crawler - INFO - 药物信息处理完成: 伊立替康
+2025-09-15 13:31:56 - drug_crawler - INFO - 资源清理完成
+2025-09-15 13:32:52 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 13:32:52 - drug_crawler - INFO - 开始搜索药物: 伊立替康
+2025-09-15 13:32:53 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc
+2025-09-15 13:32:55 - drug_crawler - INFO - 传统爬取成功: 伊立替康
+2025-09-15 13:32:55 - drug_crawler - INFO - 药物信息处理完成: 伊立替康
+2025-09-15 13:32:55 - drug_crawler - INFO - 资源清理完成
+2025-09-15 13:38:04 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 13:38:04 - drug_crawler - INFO - 开始搜索药物: 伊立替康
+2025-09-15 13:38:04 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc
+2025-09-15 13:38:09 - drug_crawler - INFO - 传统爬取成功: 伊立替康
+2025-09-15 13:38:09 - drug_crawler - INFO - 药物信息处理完成: 伊立替康
+2025-09-15 13:38:09 - drug_crawler - ERROR - 导出汇总信息失败: 'Config' object has no attribute 'output_dir'
+2025-09-15 13:38:09 - drug_crawler - INFO - 资源清理完成
+2025-09-15 13:39:49 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 13:39:49 - drug_crawler - INFO - 开始搜索药物: 伊立替康
+2025-09-15 13:39:49 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc
+2025-09-15 13:39:51 - drug_crawler - INFO - 传统爬取成功: 伊立替康
+2025-09-15 13:39:51 - drug_crawler - INFO - 药物信息处理完成: 伊立替康
+2025-09-15 13:39:51 - drug_crawler - ERROR - 导出汇总信息失败: 'Config' object has no attribute 'output_dir'
+2025-09-15 13:39:51 - drug_crawler - INFO - 资源清理完成
+2025-09-15 13:43:05 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 13:43:05 - drug_crawler - INFO - 开始搜索药物: 伊立替康
+2025-09-15 13:43:57 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7
+2025-09-15 13:43:59 - drug_crawler - INFO - 传统爬取成功: 伊立替康
+2025-09-15 13:44:00 - drug_crawler - INFO - 药物信息处理完成: 伊立替康
+2025-09-15 13:44:00 - drug_crawler - ERROR - 导出汇总信息失败: 'Config' object has no attribute 'output_dir'
+2025-09-15 13:44:00 - drug_crawler - INFO - 资源清理完成
+2025-09-15 13:49:21 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 13:49:21 - drug_crawler - INFO - 开始搜索药物: 伊立替康
+2025-09-15 13:49:31 - drug_crawler - INFO - 用户取消选择
+2025-09-15 13:49:31 - drug_crawler - INFO - 资源清理完成
+2025-09-15 13:49:33 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 13:49:33 - drug_crawler - INFO - 开始搜索药物: 伊立替康
+2025-09-15 13:49:33 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc
+2025-09-15 13:49:36 - drug_crawler - INFO - 传统爬取成功: 伊立替康
+2025-09-15 13:49:36 - drug_crawler - INFO - 药物信息处理完成: 伊立替康
+2025-09-15 13:49:36 - drug_crawler - ERROR - 导出汇总信息失败: 'Config' object has no attribute 'output_dir'
+2025-09-15 13:49:36 - drug_crawler - INFO - 资源清理完成
+2025-09-15 13:52:11 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 13:52:11 - drug_crawler - INFO - 开始搜索药物: 伊立替康
+2025-09-15 13:52:37 - drug_crawler - INFO - 用户取消选择
+2025-09-15 13:52:37 - drug_crawler - INFO - 资源清理完成
+2025-09-15 13:52:39 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 13:52:39 - drug_crawler - INFO - 开始搜索药物: 伊立替康
+2025-09-15 13:52:40 - drug_crawler - INFO - 成功导出markdown文件: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/伊立替康_20250915_135240.md
+2025-09-15 13:52:40 - drug_crawler - INFO - 已导出markdown文件: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/伊立替康_20250915_135240.md
+2025-09-15 13:52:40 - drug_crawler - ERROR - 导出汇总信息失败: 'Config' object has no attribute 'output_dir'
+2025-09-15 13:52:40 - drug_crawler - INFO - 资源清理完成
+2025-09-15 13:53:27 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 13:53:27 - drug_crawler - INFO - 开始搜索药物: 布洛芬
+2025-09-15 13:53:30 - drug_crawler - INFO - 成功导出markdown文件: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/布洛芬_20250915_135330.md
+2025-09-15 13:53:30 - drug_crawler - INFO - 已导出markdown文件: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/布洛芬_20250915_135330.md
+2025-09-15 13:53:30 - drug_crawler - ERROR - 导出汇总信息失败: 'Config' object has no attribute 'output_dir'
+2025-09-15 13:53:30 - drug_crawler - INFO - 资源清理完成
+2025-09-15 13:54:34 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 13:54:34 - drug_crawler - INFO - 开始搜索药物: 布洛芬
+2025-09-15 13:54:41 - drug_crawler - INFO - 成功导出markdown文件: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/布洛芬缓释胶囊_芬必得__0_3g_20250915_135441.md
+2025-09-15 13:54:41 - drug_crawler - INFO - 已导出markdown文件: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/布洛芬缓释胶囊_芬必得__0_3g_20250915_135441.md
+2025-09-15 13:54:41 - drug_crawler - ERROR - 导出汇总信息失败: 'Config' object has no attribute 'output_dir'
+2025-09-15 13:54:41 - drug_crawler - INFO - 资源清理完成
+2025-09-15 13:56:18 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 13:56:18 - drug_crawler - INFO - 开始搜索药物: 开普拓
+2025-09-15 13:56:20 - drug_crawler - INFO - 成功导出markdown文件: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/开普拓_盐酸伊立替康注射液__2mL_5mL_15mL_20250915_135620.md
+2025-09-15 13:56:20 - drug_crawler - INFO - 已导出markdown文件: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/开普拓_盐酸伊立替康注射液__2mL_5mL_15mL_20250915_135620.md
+2025-09-15 13:56:20 - drug_crawler - ERROR - 导出汇总信息失败: 'Config' object has no attribute 'output_dir'
+2025-09-15 13:56:20 - drug_crawler - INFO - 资源清理完成
+2025-09-15 13:57:04 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 13:57:04 - drug_crawler - INFO - 开始搜索药物: 开普拓
+2025-09-15 13:57:05 - drug_crawler - INFO - 成功导出markdown文件: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/开普拓_盐酸伊立替康注射液__2mL_5mL_15mL_20250915_135705.md
+2025-09-15 13:57:05 - drug_crawler - INFO - 已导出markdown文件: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/开普拓_盐酸伊立替康注射液__2mL_5mL_15mL_20250915_135705.md
+2025-09-15 13:57:05 - drug_crawler - ERROR - 导出汇总信息失败: 'Config' object has no attribute 'output_dir'
+2025-09-15 13:57:05 - drug_crawler - INFO - 资源清理完成
+2025-09-15 13:57:13 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 13:57:13 - drug_crawler - INFO - 开始搜索药物: 开普拓
+2025-09-15 13:57:15 - drug_crawler - INFO - 成功导出markdown文件: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/开普拓_盐酸伊立替康注射液__2mL_5mL_15mL_20250915_135715.md
+2025-09-15 13:57:15 - drug_crawler - INFO - 已导出markdown文件: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/开普拓_盐酸伊立替康注射液__2mL_5mL_15mL_20250915_135715.md
+2025-09-15 13:57:15 - drug_crawler - ERROR - 导出汇总信息失败: 'Config' object has no attribute 'output_dir'
+2025-09-15 13:57:15 - drug_crawler - INFO - 资源清理完成
+2025-09-15 13:59:11 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 13:59:11 - drug_crawler - INFO - 开始搜索药物: 开普拓
+2025-09-15 13:59:19 - drug_crawler - INFO - 成功导出markdown文件: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/开普拓_盐酸伊立替康注射液__2mL_5mL_15mL_20250915_135919.md
+2025-09-15 13:59:19 - drug_crawler - INFO - 已导出markdown文件: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/开普拓_盐酸伊立替康注射液__2mL_5mL_15mL_20250915_135919.md
+2025-09-15 13:59:19 - drug_crawler - ERROR - 导出汇总信息失败: 'Config' object has no attribute 'output_dir'
+2025-09-15 13:59:19 - drug_crawler - INFO - 资源清理完成
+2025-09-15 14:00:03 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 14:00:03 - drug_crawler - INFO - 开始搜索药物: 开普拓
+2025-09-15 14:00:04 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:00:07 - drug_crawler - INFO - 传统爬取成功: 开普拓
+2025-09-15 14:00:07 - drug_crawler - INFO - 药物信息处理完成: 开普拓
+2025-09-15 14:00:07 - drug_crawler - ERROR - 导出汇总信息失败: 'Config' object has no attribute 'output_dir'
+2025-09-15 14:00:07 - drug_crawler - INFO - 资源清理完成
+2025-09-15 14:11:00 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 14:11:00 - drug_crawler - INFO - 开始搜索药物: 开普拓
+2025-09-15 14:11:01 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:11:06 - drug_crawler - INFO - 传统爬取成功: 开普拓
+2025-09-15 14:11:06 - drug_crawler - INFO - 药物信息处理完成: 开普拓
+2025-09-15 14:11:06 - drug_crawler - ERROR - 导出汇总信息失败: 'Config' object has no attribute 'output_dir'
+2025-09-15 14:11:06 - drug_crawler - INFO - 资源清理完成
+2025-09-15 14:14:56 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 14:14:56 - drug_crawler - INFO - 开始搜索药物: 开普拓
+2025-09-15 14:14:57 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:15:00 - drug_crawler - INFO - 传统爬取成功: 开普拓
+2025-09-15 14:15:00 - drug_crawler - INFO - 药物信息处理完成: 开普拓
+2025-09-15 14:15:00 - drug_crawler - ERROR - 导出汇总信息失败: 'Config' object has no attribute 'output_dir'
+2025-09-15 14:15:00 - drug_crawler - INFO - 资源清理完成
+2025-09-15 14:17:36 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 14:17:36 - drug_crawler - INFO - 开始搜索药物: 开普拓
+2025-09-15 14:17:37 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:17:41 - drug_crawler - INFO - 传统爬取成功: 开普拓
+2025-09-15 14:17:41 - drug_crawler - INFO - 药物信息处理完成: 开普拓
+2025-09-15 14:17:41 - drug_crawler - ERROR - 导出汇总信息失败: 'Config' object has no attribute 'output_dir'
+2025-09-15 14:17:41 - drug_crawler - INFO - 资源清理完成
+2025-09-15 14:19:32 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 14:19:32 - drug_crawler - INFO - 开始搜索药物: 开普拓
+2025-09-15 14:19:32 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:19:35 - drug_crawler - INFO - 传统爬取成功: 开普拓
+2025-09-15 14:19:35 - drug_crawler - INFO - 药物信息处理完成: 开普拓
+2025-09-15 14:19:35 - drug_crawler - ERROR - 导出汇总信息失败: 'Config' object has no attribute 'output_dir'
+2025-09-15 14:19:35 - drug_crawler - INFO - 资源清理完成
+2025-09-15 14:21:59 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 14:21:59 - drug_crawler - INFO - 开始搜索药物: 开普拓
+2025-09-15 14:22:00 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:22:02 - drug_crawler - INFO - 传统爬取成功: 开普拓
+2025-09-15 14:22:03 - drug_crawler - INFO - 药物信息处理完成: 开普拓
+2025-09-15 14:22:03 - drug_crawler - ERROR - 导出汇总信息失败: 'Config' object has no attribute 'output_dir'
+2025-09-15 14:22:03 - drug_crawler - INFO - 资源清理完成
+2025-09-15 14:25:11 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 14:25:51 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 14:25:51 - drug_crawler - INFO - 开始搜索药物: 开普拓
+2025-09-15 14:25:51 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:25:54 - drug_crawler - INFO - 传统爬取成功: 开普拓
+2025-09-15 14:25:54 - drug_crawler - INFO - 药物信息处理完成: 开普拓
+2025-09-15 14:25:54 - drug_crawler - ERROR - 导出汇总信息失败: 'Config' object has no attribute 'output_dir'
+2025-09-15 14:30:02 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 14:30:02 - drug_crawler - INFO - 开始搜索药物: 开普拓
+2025-09-15 14:30:02 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:30:07 - drug_crawler - INFO - 传统爬取成功: 开普拓
+2025-09-15 14:30:07 - drug_crawler - INFO - 药物信息处理完成: 开普拓
+2025-09-15 14:30:07 - drug_crawler - ERROR - 导出汇总信息失败: 'Config' object has no attribute 'output_dir'
+2025-09-15 16:12:49 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 16:12:49 - drug_crawler - INFO - 开始搜索药物: 开普拓
+2025-09-15 16:12:51 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:13:00 - drug_crawler - INFO - 传统爬取成功: 开普拓
+2025-09-15 16:13:00 - drug_crawler - INFO - 药物信息处理完成: 开普拓
+2025-09-15 16:13:00 - drug_crawler - ERROR - 导出汇总信息失败: 'Config' object has no attribute 'output_dir'
+2025-09-15 16:15:38 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 16:15:38 - drug_crawler - INFO - 开始搜索药物: 开普拓
+2025-09-15 16:15:38 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:15:41 - drug_crawler - INFO - 传统爬取成功: 开普拓
+2025-09-15 16:15:41 - drug_crawler - INFO - 药物信息处理完成: 开普拓
+2025-09-15 16:15:41 - drug_crawler - INFO - 导出汇总信息: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/summary_20250915_161541.json
+2025-09-15 16:17:11 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 16:17:11 - drug_crawler - INFO - 开始搜索药物: 开普拓
+2025-09-15 16:17:11 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:17:13 - drug_crawler - INFO - 传统爬取成功: 开普拓
+2025-09-15 16:17:13 - drug_crawler - INFO - 药物信息处理完成: 开普拓
+2025-09-15 16:17:13 - drug_crawler - INFO - 导出汇总信息: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/summary_20250915_161713.json
+2025-09-15 16:18:20 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 16:18:20 - drug_crawler - INFO - 开始搜索药物: 开普拓
+2025-09-15 16:18:20 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:18:22 - drug_crawler - INFO - 传统爬取成功: 开普拓
+2025-09-15 16:18:22 - drug_crawler - INFO - 药物信息处理完成: 开普拓
+2025-09-15 16:18:22 - drug_crawler - INFO - 导出汇总信息: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/summary_20250915_161822.json
+2025-09-15 16:20:25 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 16:20:25 - drug_crawler - INFO - 开始搜索药物: 开普拓
+2025-09-15 16:20:25 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:20:29 - drug_crawler - INFO - 传统爬取成功: 开普拓
+2025-09-15 16:20:29 - drug_crawler - INFO - 药物信息处理完成: 开普拓
+2025-09-15 16:20:29 - drug_crawler - INFO - 导出汇总信息: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/summary_20250915_162029.json
+2025-09-15 16:23:03 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 16:23:03 - drug_crawler - INFO - 开始搜索药物: 开普拓
+2025-09-15 16:23:04 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:23:07 - drug_crawler - INFO - 传统爬取成功: 开普拓
+2025-09-15 16:23:07 - drug_crawler - INFO - 药物信息处理完成: 开普拓
+2025-09-15 16:23:07 - drug_crawler - INFO - 导出汇总信息: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/summary_20250915_162307.json
+2025-09-15 16:30:29 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 16:30:29 - drug_crawler - INFO - 开始搜索药物: 开普拓
+2025-09-15 16:30:30 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:30:33 - drug_crawler - INFO - 传统爬取成功: 开普拓
+2025-09-15 16:30:34 - drug_crawler - INFO - 药物信息处理完成: 开普拓
+2025-09-15 16:30:34 - drug_crawler - INFO - 导出汇总信息: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/summary_20250915_163034.json
+2025-09-15 16:31:03 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 16:31:03 - drug_crawler - INFO - 开始搜索药物: 开普拓
+2025-09-15 16:31:03 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:31:08 - drug_crawler - INFO - 传统爬取成功: 开普拓
+2025-09-15 16:31:08 - drug_crawler - INFO - 药物信息处理完成: 开普拓
+2025-09-15 16:31:08 - drug_crawler - INFO - 导出汇总信息: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/summary_20250915_163108.json
+2025-09-15 16:41:26 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 16:41:26 - drug_crawler - INFO - 开始搜索药物: 阿司匹林
+2025-09-15 16:41:26 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc/drug/yojLj75H-71W5DSC0iJzPNw?ky=%E9%98%BF%E5%8F%B8%E5%8C%B9%E6%9E%97
+2025-09-15 16:41:34 - drug_crawler - INFO - 传统爬取成功: 阿司匹林
+2025-09-15 16:41:34 - drug_crawler - INFO - 药物信息处理完成: 阿司匹林
+2025-09-15 16:41:34 - drug_crawler - INFO - 导出汇总信息: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/summary_20250915_164134.json
+2025-09-15 16:41:34 - drug_crawler - INFO - 资源清理完成
+2025-09-15 16:48:47 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 16:48:47 - drug_crawler - INFO - 开始搜索药物: 拜阿司匹灵
+2025-09-15 16:48:56 - drug_crawler - INFO - 成功导出markdown文件: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/25091508/拜阿司匹灵_阿司匹林肠溶片__100mg_20250915_164856.md
+2025-09-15 16:48:56 - drug_crawler - INFO - 已导出markdown文件: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/25091508/拜阿司匹灵_阿司匹林肠溶片__100mg_20250915_164856.md
+2025-09-15 16:48:56 - drug_crawler - INFO - 导出汇总信息: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/summary_20250915_164856.json
+2025-09-15 16:48:56 - drug_crawler - INFO - 资源清理完成
+2025-09-15 16:50:04 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 16:50:04 - drug_crawler - INFO - 开始搜索药物: 德曲妥珠
+2025-09-15 16:50:13 - drug_crawler - INFO - 成功导出markdown文件: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/25091502/优赫得_注射用德曲妥珠单抗__100mg_20250915_165013.md
+2025-09-15 16:50:13 - drug_crawler - INFO - 已导出markdown文件: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/25091502/优赫得_注射用德曲妥珠单抗__100mg_20250915_165013.md
+2025-09-15 16:50:13 - drug_crawler - INFO - 导出汇总信息: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/summary_20250915_165013.json
+2025-09-15 16:50:13 - drug_crawler - INFO - 资源清理完成
+2025-09-15 16:51:43 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 16:51:43 - drug_crawler - INFO - 开始搜索药物: 拜阿司匹灵
+2025-09-15 16:51:47 - drug_crawler - INFO - 成功导出markdown文件: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/25091504/拜阿司匹灵_阿司匹林肠溶片__100mg_20250915_165147.md
+2025-09-15 16:51:47 - drug_crawler - INFO - 已导出markdown文件: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/25091504/拜阿司匹灵_阿司匹林肠溶片__100mg_20250915_165147.md
+2025-09-15 16:51:47 - drug_crawler - INFO - 导出汇总信息: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/summary_20250915_165147.json
+2025-09-15 16:51:47 - drug_crawler - INFO - 资源清理完成
+2025-09-15 16:52:52 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 16:52:52 - drug_crawler - INFO - 开始搜索药物: 拜阿司匹灵
+2025-09-15 16:53:08 - drug_crawler - INFO - 成功导出markdown文件: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/25091506/拜阿司匹灵_阿司匹林肠溶片__100mg_20250915_165308.md
+2025-09-15 16:53:08 - drug_crawler - INFO - 已导出markdown文件: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/25091506/拜阿司匹灵_阿司匹林肠溶片__100mg_20250915_165308.md
+2025-09-15 16:53:08 - drug_crawler - INFO - 导出汇总信息: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/summary_20250915_165308.json
+2025-09-15 16:53:08 - drug_crawler - INFO - 资源清理完成

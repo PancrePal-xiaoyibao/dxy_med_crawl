@@ -1,0 +1,291 @@
+2025-09-15 09:09:39 - network - INFO - Cookie文件不存在，将获取新的Cookie
+2025-09-15 09:09:39 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:09:39 - network - ERROR - 刷新Cookie时发生异常: 'Config' object has no attribute 'anti_crawler_config'
+2025-09-15 09:09:39 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:09:39 - network - ERROR - 保存Cookie失败: 'Config' object has no attribute 'anti_crawler_config'
+2025-09-15 09:09:39 - network - INFO - 网络管理器已关闭
+2025-09-15 09:09:39 - network - INFO - Cookie文件不存在，将获取新的Cookie
+2025-09-15 09:09:39 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:09:39 - network - ERROR - 刷新Cookie时发生异常: 'Config' object has no attribute 'anti_crawler_config'
+2025-09-15 09:09:39 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:09:40 - network - ERROR - 保存Cookie失败: 'Config' object has no attribute 'anti_crawler_config'
+2025-09-15 09:09:40 - network - INFO - 网络管理器已关闭
+2025-09-15 09:09:40 - network - INFO - Cookie文件不存在，将获取新的Cookie
+2025-09-15 09:09:40 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:09:40 - network - ERROR - 刷新Cookie时发生异常: 'Config' object has no attribute 'anti_crawler_config'
+2025-09-15 09:09:40 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:09:40 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:09:40 - network - ERROR - 刷新Cookie时发生异常: 'Config' object has no attribute 'anti_crawler_config'
+2025-09-15 09:09:40 - network - ERROR - 保存Cookie失败: 'Config' object has no attribute 'anti_crawler_config'
+2025-09-15 09:09:40 - network - INFO - 网络管理器已关闭
+2025-09-15 09:09:40 - network - INFO - Cookie文件不存在，将获取新的Cookie
+2025-09-15 09:09:40 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:09:40 - network - ERROR - 刷新Cookie时发生异常: 'Config' object has no attribute 'anti_crawler_config'
+2025-09-15 09:09:40 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:09:40 - network - ERROR - 保存Cookie失败: 'Config' object has no attribute 'anti_crawler_config'
+2025-09-15 09:09:40 - network - INFO - 网络管理器已关闭
+2025-09-15 09:09:46 - network - INFO - Cookie文件不存在，将获取新的Cookie
+2025-09-15 09:09:46 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:09:46 - network - ERROR - 刷新Cookie时发生异常: 'Config' object has no attribute 'anti_crawler_config'
+2025-09-15 09:09:46 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:09:46 - network - ERROR - 保存Cookie失败: 'Config' object has no attribute 'anti_crawler_config'
+2025-09-15 09:09:46 - network - INFO - 网络管理器已关闭
+2025-09-15 09:09:46 - network - INFO - Cookie文件不存在，将获取新的Cookie
+2025-09-15 09:09:46 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:09:46 - network - ERROR - 刷新Cookie时发生异常: 'Config' object has no attribute 'anti_crawler_config'
+2025-09-15 09:09:46 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:09:47 - network - ERROR - 保存Cookie失败: 'Config' object has no attribute 'anti_crawler_config'
+2025-09-15 09:09:47 - network - INFO - 网络管理器已关闭
+2025-09-15 09:09:47 - network - INFO - Cookie文件不存在，将获取新的Cookie
+2025-09-15 09:09:47 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:09:47 - network - ERROR - 刷新Cookie时发生异常: 'Config' object has no attribute 'anti_crawler_config'
+2025-09-15 09:09:47 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:09:47 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:09:47 - network - ERROR - 刷新Cookie时发生异常: 'Config' object has no attribute 'anti_crawler_config'
+2025-09-15 09:09:47 - network - ERROR - 保存Cookie失败: 'Config' object has no attribute 'anti_crawler_config'
+2025-09-15 09:09:47 - network - INFO - 网络管理器已关闭
+2025-09-15 09:09:47 - network - INFO - Cookie文件不存在，将获取新的Cookie
+2025-09-15 09:09:47 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:09:47 - network - ERROR - 刷新Cookie时发生异常: 'Config' object has no attribute 'anti_crawler_config'
+2025-09-15 09:09:47 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:09:47 - network - ERROR - 保存Cookie失败: 'Config' object has no attribute 'anti_crawler_config'
+2025-09-15 09:09:47 - network - INFO - 网络管理器已关闭
+2025-09-15 09:10:23 - network - INFO - Cookie文件不存在，将获取新的Cookie
+2025-09-15 09:10:23 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:10:23 - network - ERROR - 刷新Cookie时发生异常: 'NetworkManager' object has no attribute 'user_agents'
+2025-09-15 09:10:23 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:10:23 - network - INFO - 网络管理器已关闭
+2025-09-15 09:10:23 - network - INFO - 加载了 0 个Cookie
+2025-09-15 09:10:24 - network - WARNING - Cookie验证失败，尝试刷新
+2025-09-15 09:10:24 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:10:24 - network - ERROR - 刷新Cookie时发生异常: 'NetworkManager' object has no attribute 'user_agents'
+2025-09-15 09:10:24 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:10:25 - network - INFO - 网络管理器已关闭
+2025-09-15 09:10:25 - network - INFO - 加载了 0 个Cookie
+2025-09-15 09:10:26 - network - WARNING - Cookie验证失败，尝试刷新
+2025-09-15 09:10:26 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:10:26 - network - ERROR - 刷新Cookie时发生异常: 'NetworkManager' object has no attribute 'user_agents'
+2025-09-15 09:10:26 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:10:26 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:10:27 - network - INFO - Cookie刷新成功
+2025-09-15 09:10:27 - network - INFO - 网络管理器已关闭
+2025-09-15 09:10:27 - network - WARNING - Cookie已过期（超过24小时），需要刷新
+2025-09-15 09:10:27 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:10:27 - network - ERROR - 刷新Cookie时发生异常: 'NetworkManager' object has no attribute 'user_agents'
+2025-09-15 09:10:27 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:10:27 - network - INFO - 网络管理器已关闭
+2025-09-15 09:10:27 - network - INFO - 加载了 0 个Cookie
+2025-09-15 09:10:28 - network - WARNING - Cookie验证失败，尝试刷新
+2025-09-15 09:10:28 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:10:28 - network - ERROR - 刷新Cookie时发生异常: 'NetworkManager' object has no attribute 'user_agents'
+2025-09-15 09:10:28 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:10:28 - network - INFO - 网络管理器已关闭
+2025-09-15 09:18:20 - network - INFO - 加载了 0 个Cookie
+2025-09-15 09:18:21 - network - WARNING - Cookie验证失败，尝试刷新
+2025-09-15 09:18:21 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:18:21 - network - ERROR - 刷新Cookie时发生异常: 'NetworkManager' object has no attribute 'user_agents'
+2025-09-15 09:18:21 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:18:21 - network - INFO - 网络管理器已关闭
+2025-09-15 09:18:21 - network - INFO - 加载了 0 个Cookie
+2025-09-15 09:18:22 - network - WARNING - Cookie验证失败，尝试刷新
+2025-09-15 09:18:22 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:18:22 - network - ERROR - 刷新Cookie时发生异常: 'NetworkManager' object has no attribute 'user_agents'
+2025-09-15 09:18:22 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:18:23 - network - INFO - 网络管理器已关闭
+2025-09-15 09:18:23 - network - INFO - 加载了 0 个Cookie
+2025-09-15 09:18:26 - network - INFO - 加载了 0 个Cookie
+2025-09-15 09:18:27 - network - WARNING - Cookie验证失败，尝试刷新
+2025-09-15 09:18:27 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:18:27 - network - ERROR - 刷新Cookie时发生异常: 'NetworkManager' object has no attribute 'user_agents'
+2025-09-15 09:18:27 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:18:27 - network - INFO - 网络管理器已关闭
+2025-09-15 09:18:27 - network - INFO - 加载了 0 个Cookie
+2025-09-15 09:18:28 - network - WARNING - Cookie验证失败，尝试刷新
+2025-09-15 09:18:28 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:18:28 - network - ERROR - 刷新Cookie时发生异常: 'NetworkManager' object has no attribute 'user_agents'
+2025-09-15 09:18:28 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:18:28 - network - INFO - 网络管理器已关闭
+2025-09-15 09:18:28 - network - INFO - 加载了 0 个Cookie
+2025-09-15 09:18:29 - network - WARNING - Cookie验证失败，尝试刷新
+2025-09-15 09:18:29 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:18:29 - network - ERROR - 刷新Cookie时发生异常: 'NetworkManager' object has no attribute 'user_agents'
+2025-09-15 09:18:29 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:18:29 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:18:30 - network - INFO - Cookie刷新成功
+2025-09-15 09:18:30 - network - INFO - 网络管理器已关闭
+2025-09-15 09:18:30 - network - WARNING - Cookie已过期（超过24小时），需要刷新
+2025-09-15 09:18:30 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:18:30 - network - ERROR - 刷新Cookie时发生异常: 'NetworkManager' object has no attribute 'user_agents'
+2025-09-15 09:18:30 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:18:30 - network - INFO - 网络管理器已关闭
+2025-09-15 09:18:30 - network - INFO - 加载了 0 个Cookie
+2025-09-15 09:18:31 - network - WARNING - Cookie验证失败，尝试刷新
+2025-09-15 09:18:31 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:18:31 - network - ERROR - 刷新Cookie时发生异常: 'NetworkManager' object has no attribute 'user_agents'
+2025-09-15 09:18:31 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:18:31 - network - INFO - 搜索药物: 阿司匹林
+2025-09-15 09:18:32 - network - ERROR - 未知异常: https://newdrugs.dxy.cn/pc/search?keyword=阿司匹林, 耗时: 0.62s, 错误: 'PerformanceLogger' object has no attribute 'info'
+2025-09-15 09:18:32 - network - INFO - 网络管理器已关闭
+2025-09-15 09:27:52 - network - INFO - 加载了 0 个Cookie
+2025-09-15 09:27:53 - network - WARNING - Cookie验证失败，尝试刷新
+2025-09-15 09:27:53 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:27:54 - network - INFO - Cookie刷新成功
+2025-09-15 09:27:54 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:27:54 - network - INFO - 网络管理器已关闭
+2025-09-15 09:27:54 - network - INFO - 加载了 0 个Cookie
+2025-09-15 09:27:56 - network - WARNING - Cookie验证失败，尝试刷新
+2025-09-15 09:27:56 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:27:58 - network - INFO - Cookie刷新成功
+2025-09-15 09:27:58 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:28:00 - network - INFO - 网络管理器已关闭
+2025-09-15 09:28:00 - network - INFO - 加载了 0 个Cookie
+2025-09-15 09:28:02 - network - WARNING - Cookie验证失败，尝试刷新
+2025-09-15 09:28:02 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:28:02 - network - INFO - Cookie刷新成功
+2025-09-15 09:28:02 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:28:02 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:28:03 - network - INFO - Cookie刷新成功
+2025-09-15 09:28:03 - network - INFO - 网络管理器已关闭
+2025-09-15 09:28:03 - network - WARNING - Cookie已过期（超过24小时），需要刷新
+2025-09-15 09:28:03 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:28:04 - network - INFO - Cookie刷新成功
+2025-09-15 09:28:04 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:28:04 - network - INFO - 网络管理器已关闭
+2025-09-15 09:28:04 - network - INFO - 加载了 0 个Cookie
+2025-09-15 09:28:06 - network - WARNING - Cookie验证失败，尝试刷新
+2025-09-15 09:28:06 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:28:07 - network - INFO - Cookie刷新成功
+2025-09-15 09:28:07 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:28:07 - network - INFO - 搜索药物: 阿司匹林
+2025-09-15 09:28:13 - network - ERROR - 请求异常: https://newdrugs.dxy.cn/pc/search?keyword=阿司匹林, 耗时: 6.44s, 错误: HTTPSConnectionPool(host='newdrugs.dxy.cn', port=443): Max retries exceeded with url: /pc/search?keyword=%E9%98%BF%E5%8F%B8%E5%8C%B9%E6%9E%97 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+2025-09-15 09:28:13 - network - INFO - 网络管理器已关闭
+2025-09-15 09:30:06 - network - INFO - 加载了 0 个Cookie
+2025-09-15 09:30:08 - network - WARNING - Cookie验证失败，尝试刷新
+2025-09-15 09:30:08 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:30:09 - network - INFO - Cookie刷新成功
+2025-09-15 09:30:09 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:30:09 - network - INFO - 网络管理器已关闭
+2025-09-15 09:30:09 - network - INFO - 加载了 0 个Cookie
+2025-09-15 09:30:16 - network - ERROR - Cookie验证失败: HTTPSConnectionPool(host='drugs.dxy.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+2025-09-15 09:30:16 - network - WARNING - Cookie验证失败，尝试刷新
+2025-09-15 09:30:16 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:30:19 - network - INFO - Cookie刷新成功
+2025-09-15 09:30:19 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:30:20 - network - INFO - 网络管理器已关闭
+2025-09-15 09:30:20 - network - INFO - 加载了 0 个Cookie
+2025-09-15 09:30:22 - network - WARNING - Cookie验证失败，尝试刷新
+2025-09-15 09:30:22 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:30:24 - network - INFO - Cookie刷新成功
+2025-09-15 09:30:24 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:30:24 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:30:25 - network - INFO - Cookie刷新成功
+2025-09-15 09:30:25 - network - INFO - 网络管理器已关闭
+2025-09-15 09:30:25 - network - WARNING - Cookie已过期（超过24小时），需要刷新
+2025-09-15 09:30:25 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:30:26 - network - INFO - Cookie刷新成功
+2025-09-15 09:30:26 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:30:26 - network - INFO - 网络管理器已关闭
+2025-09-15 09:30:26 - network - INFO - 加载了 0 个Cookie
+2025-09-15 09:30:32 - network - ERROR - Cookie验证失败: HTTPSConnectionPool(host='drugs.dxy.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+2025-09-15 09:30:32 - network - WARNING - Cookie验证失败，尝试刷新
+2025-09-15 09:30:32 - network - INFO - 正在刷新Cookie...
+2025-09-15 09:30:40 - network - INFO - Cookie刷新成功
+2025-09-15 09:30:40 - network - INFO - 网络管理器初始化完成
+2025-09-15 09:30:40 - network - INFO - 搜索药物: 阿司匹林
+2025-09-15 09:30:41 - network - INFO - 网络请求 - GET https://newdrugs.dxy.cn/pc/search?keyword=%E9%98%BF%E5%8F%B8%E5%8C%B9%E6%9E%97 - 状态码: 200, 耗时: 0.76s, 响应大小: 66331字节
+2025-09-15 09:30:41 - network - INFO - 网络管理器已关闭
+2025-09-15 10:13:39 - network - INFO - 网络管理器初始化完成
+2025-09-15 10:14:15 - network - INFO - 网络管理器初始化完成
+2025-09-15 10:14:59 - network - INFO - 网络管理器初始化完成
+2025-09-15 10:15:42 - network - INFO - 网络管理器初始化完成
+2025-09-15 10:16:48 - network - INFO - 网络管理器初始化完成
+2025-09-15 10:16:49 - network - ERROR - 关闭网络管理器时发生错误: CookieManager.save_cookies() missing 1 required positional argument: 'session'
+2025-09-15 10:48:19 - network - INFO - 网络管理器初始化完成
+2025-09-15 10:48:20 - network - INFO - 网络管理器已关闭
+2025-09-15 10:48:28 - network - INFO - 网络管理器初始化完成
+2025-09-15 10:48:30 - network - INFO - 网络管理器已关闭
+2025-09-15 10:48:38 - network - INFO - 网络管理器初始化完成
+2025-09-15 10:48:38 - network - INFO - 网络管理器已关闭
+2025-09-15 10:49:20 - network - INFO - 网络管理器初始化完成
+2025-09-15 10:49:22 - network - INFO - 网络管理器已关闭
+2025-09-15 10:49:30 - network - INFO - 网络管理器初始化完成
+2025-09-15 10:49:30 - network - INFO - 网络管理器已关闭
+2025-09-15 11:35:09 - network - INFO - 网络管理器初始化完成
+2025-09-15 11:35:10 - network - INFO - 网络管理器已关闭
+2025-09-15 11:36:09 - network - INFO - 网络管理器初始化完成
+2025-09-15 11:36:09 - network - INFO - 网络管理器已关闭
+2025-09-15 11:38:00 - network - INFO - 网络管理器初始化完成
+2025-09-15 11:38:18 - network - INFO - 网络管理器已关闭
+2025-09-15 13:13:44 - network - INFO - 网络管理器初始化完成
+2025-09-15 13:14:06 - network - INFO - 网络管理器已关闭
+2025-09-15 13:15:55 - network - INFO - 网络管理器初始化完成
+2025-09-15 13:15:59 - network - INFO - 网络管理器已关闭
+2025-09-15 13:17:18 - network - INFO - 网络管理器初始化完成
+2025-09-15 13:17:24 - network - INFO - 网络管理器已关闭
+2025-09-15 13:18:04 - network - INFO - 网络管理器初始化完成
+2025-09-15 13:18:08 - network - INFO - 网络管理器已关闭
+2025-09-15 13:31:50 - network - INFO - 网络管理器初始化完成
+2025-09-15 13:31:56 - network - INFO - 网络管理器已关闭
+2025-09-15 13:32:52 - network - INFO - 网络管理器初始化完成
+2025-09-15 13:32:55 - network - INFO - 网络管理器已关闭
+2025-09-15 13:38:04 - network - INFO - 网络管理器初始化完成
+2025-09-15 13:38:09 - network - INFO - 网络管理器已关闭
+2025-09-15 13:39:48 - network - INFO - 网络管理器初始化完成
+2025-09-15 13:39:51 - network - INFO - 网络管理器已关闭
+2025-09-15 13:43:04 - network - INFO - 网络管理器初始化完成
+2025-09-15 13:44:00 - network - INFO - 网络管理器已关闭
+2025-09-15 13:49:21 - network - INFO - 网络管理器初始化完成
+2025-09-15 13:49:31 - network - INFO - 网络管理器已关闭
+2025-09-15 13:49:33 - network - INFO - 网络管理器初始化完成
+2025-09-15 13:49:36 - network - INFO - 网络管理器已关闭
+2025-09-15 13:52:10 - network - INFO - 网络管理器初始化完成
+2025-09-15 13:52:37 - network - INFO - 网络管理器已关闭
+2025-09-15 13:52:39 - network - INFO - 网络管理器初始化完成
+2025-09-15 13:52:40 - network - INFO - 网络管理器已关闭
+2025-09-15 13:53:27 - network - INFO - 网络管理器初始化完成
+2025-09-15 13:53:30 - network - INFO - 网络管理器已关闭
+2025-09-15 13:54:33 - network - INFO - 网络管理器初始化完成
+2025-09-15 13:54:41 - network - INFO - 网络管理器已关闭
+2025-09-15 13:56:17 - network - INFO - 网络管理器初始化完成
+2025-09-15 13:56:20 - network - INFO - 网络管理器已关闭
+2025-09-15 13:57:03 - network - INFO - 网络管理器初始化完成
+2025-09-15 13:57:05 - network - INFO - 网络管理器已关闭
+2025-09-15 13:57:12 - network - INFO - 网络管理器初始化完成
+2025-09-15 13:57:15 - network - INFO - 网络管理器已关闭
+2025-09-15 13:58:28 - network - INFO - 网络管理器初始化完成
+2025-09-15 13:58:56 - network - INFO - 网络管理器初始化完成
+2025-09-15 13:59:10 - network - INFO - 网络管理器初始化完成
+2025-09-15 13:59:19 - network - INFO - 网络管理器已关闭
+2025-09-15 14:00:03 - network - INFO - 网络管理器初始化完成
+2025-09-15 14:00:07 - network - INFO - 网络管理器已关闭
+2025-09-15 14:10:59 - network - INFO - 网络管理器初始化完成
+2025-09-15 14:11:06 - network - INFO - 网络管理器已关闭
+2025-09-15 14:14:56 - network - INFO - 网络管理器初始化完成
+2025-09-15 14:15:00 - network - INFO - 网络管理器已关闭
+2025-09-15 14:17:36 - network - INFO - 网络管理器初始化完成
+2025-09-15 14:17:41 - network - INFO - 网络管理器已关闭
+2025-09-15 14:19:32 - network - INFO - 网络管理器初始化完成
+2025-09-15 14:19:35 - network - INFO - 网络管理器已关闭
+2025-09-15 14:21:59 - network - INFO - 网络管理器初始化完成
+2025-09-15 14:22:03 - network - INFO - 网络管理器已关闭
+2025-09-15 14:25:11 - network - INFO - 网络管理器初始化完成
+2025-09-15 14:25:51 - network - INFO - 网络管理器初始化完成
+2025-09-15 14:30:02 - network - INFO - 网络管理器初始化完成
+2025-09-15 16:12:49 - network - INFO - 网络管理器初始化完成
+2025-09-15 16:15:38 - network - INFO - 网络管理器初始化完成
+2025-09-15 16:17:10 - network - INFO - 网络管理器初始化完成
+2025-09-15 16:18:19 - network - INFO - 网络管理器初始化完成
+2025-09-15 16:20:24 - network - INFO - 网络管理器初始化完成
+2025-09-15 16:23:02 - network - INFO - 网络管理器初始化完成
+2025-09-15 16:30:29 - network - INFO - 网络管理器初始化完成
+2025-09-15 16:31:02 - network - INFO - 网络管理器初始化完成
+2025-09-15 16:41:26 - network - INFO - 网络管理器初始化完成
+2025-09-15 16:41:34 - network - INFO - 网络管理器已关闭
+2025-09-15 16:48:47 - network - INFO - 网络管理器初始化完成
+2025-09-15 16:48:56 - network - INFO - 网络管理器已关闭
+2025-09-15 16:50:04 - network - INFO - 网络管理器初始化完成
+2025-09-15 16:50:13 - network - INFO - 网络管理器已关闭
+2025-09-15 16:51:43 - network - INFO - 网络管理器初始化完成
+2025-09-15 16:51:47 - network - INFO - 网络管理器已关闭
+2025-09-15 16:52:51 - network - INFO - 网络管理器初始化完成
+2025-09-15 16:53:08 - network - INFO - 网络管理器已关闭

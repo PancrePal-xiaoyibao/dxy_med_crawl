@@ -1,20 +1,21 @@
-# 丁香园药物信息爬虫
+# 丁香园药品说明书爬虫
 
-一个功能强大的药物信息爬取工具，支持从丁香园网站获取药物详细信息，并提供多种数据处理和导出功能。
+一个高效、智能的丁香园药品说明书爬取工具，支持多种输出格式和智能内容优化。
 
 ## 🚀 主要特性
 
-- **智能内容提取**：集成Jina AI，自动清洗和结构化网页内容
-- **多格式输出**：支持JSON、CSV、Excel等多种数据格式
+- **智能内容提取**：自动识别和提取药品说明书的关键信息
+- **多格式输出**：支持 Markdown、JSON、Excel 等多种格式
+- **Jina AI 集成**：优先使用 Jina AI 进行内容处理，提高准确性
 - **智能反爬虫**：
   - 自动Cookie获取和更新
   - Cookie有效性检测和刷新
   - 智能延迟和User-Agent轮换
   - 请求失败自动重试机制
-- **异步处理**：支持批量并发爬取，提高效率
-- **数据优化**：针对RAG应用优化的数据结构和分块策略
-- **完整日志**：详细的操作日志和性能监控
-- **灵活配置**：支持环境变量和配置文件自定义
+- **异步处理**：支持批量异步爬取，提高效率
+- **RAG 优化**：自动生成适合 RAG 系统使用的优化版本
+- **完整日志**：详细的日志记录，便于调试和监控
+- **灵活配置**：丰富的配置选项，满足不同需求
 
 ## 📋 系统要求
 
@@ -110,31 +111,45 @@ python src/main.py --drug "阿司匹林" --verbose
 python src/main.py --drug "阿司匹林" --output ./my_output
 ```
 
+### RAG 优化功能
+
+系统会自动为每个爬取的药品生成两个版本的文件：
+- **原始版本**：完整的药品说明书内容（`.md` 文件）
+- **RAG 优化版本**：经过分块处理和优化的版本（`_optimized.md` 文件）
+
+RAG 优化版本包含：
+- 智能内容分块，便于向量化处理
+- 添加分块边界标记 `[CHUNK_BOUNDARY]`
+- 保留完整的结构化信息
+- 适合嵌入到 RAG 系统中使用
+
 ## 📁 项目结构
 
 ```
 丁香园pc助手说明书获取/
 ├── src/                    # 源代码目录
-│   ├── __init__.py
 │   ├── main.py            # 主程序入口
 │   ├── modules/           # 核心模块
-│   │   ├── __init__.py
 │   │   ├── config.py      # 配置管理
-│   │   ├── logger.py      # 日志管理
-│   │   ├── network.py     # 网络请求
-│   │   ├── parser.py      # 页面解析
+│   │   ├── crawler.py     # 爬虫核心
+│   │   ├── parser.py      # 内容解析
 │   │   ├── processor.py   # 数据处理
-│   │   └── jina_processor.py  # Jina AI处理
-│   └── utils/             # 工具函数
-│       └── __init__.py
-├── tests/                 # 测试文件
-│   └── test_basic.py      # 基础功能测试
+│   │   └── exporter.py    # 数据导出
+│   └── utils/             # 工具模块
+│       ├── logger.py      # 日志管理
+│       ├── network.py     # 网络工具
+│       └── helpers.py     # 辅助函数
 ├── output/                # 输出目录
 ├── logs/                  # 日志目录
-├── data/                  # 数据目录
-├── requirements.txt       # 依赖包列表
+├── data/                  # 数据目录（Cookie等）
+├── cache/                 # 缓存目录
+├── requirements.txt       # 依赖列表
+├── setup.py              # 安装脚本
+├── run.py                # 快速启动脚本
 ├── .env.example          # 环境变量示例
-└── README.md             # 说明文档
+├── crawler_design.md     # 爬虫设计文档
+├── design.md             # 系统设计文档
+└── README.md             # 项目说明
 ```
 
 ## 🔧 配置说明
@@ -150,12 +165,15 @@ cp .env.example .env
 ### 主要配置项
 
 #### 基础配置
-- `BASE_URL`: 丁香园药物数据库基础URL
+- `BASE_URL`: 丁香园药物数据库基础URL（https://newdrugs.dxy.cn）
+- `SEARCH_URL`: 搜索接口路径（/pc/search）
+- `DRUG_DETAIL_URL`: 药品详情接口路径（/pc/drug）
 - `OUTPUT_DIR`: 数据输出目录
 - `LOG_LEVEL`: 日志级别（DEBUG/INFO/WARNING/ERROR）
 
 #### 网络和反爬虫配置
-- `REQUEST_DELAY`: 请求间隔时间（秒）
+- `REQUEST_DELAY_MIN`: 最小请求间隔时间（秒）
+- `REQUEST_DELAY_MAX`: 最大请求间隔时间（秒）
 - `MAX_RETRIES`: 最大重试次数
 - `TIMEOUT`: 请求超时时间（秒）
 
@@ -166,10 +184,54 @@ cp .env.example .env
 - `COOKIE_RETRY_ATTEMPTS`: Cookie失效重试次数
 
 #### Jina AI配置
-- `JINA_API_KEY`: Jina AI API密钥（可选）
-- `USE_JINA_AI`: 是否使用Jina AI处理（true/false）
+- `JINA_API_URL`: Jina AI API地址（https://r.jina.ai/）
+- `USE_JINA_FIRST`: 优先使用Jina AI处理（true/false）
+- `JINA_TIMEOUT`: Jina AI请求超时时间（秒）
+- `JINA_MAX_RETRIES`: Jina AI最大重试次数
+
+#### RAG优化配置
+- `RAG_CHUNK_SIZE`: RAG分块大小（默认500字符）
+- `RAG_CHUNK_OVERLAP`: RAG分块重叠大小（默认50字符）
+- `RAG_ADD_LINE_NUMBERS`: 是否添加行号（true/false）
+- `RAG_ADD_CHUNK_MARKERS`: 是否添加分块标记（true/false）
 
 ## 📊 输出格式
+
+### Markdown格式
+
+生成结构化的Markdown文件，包含完整的药品信息：
+
+```markdown
+# 药品名称
+
+**来源URL**: https://newdrugs.dxy.cn/pc/drug/xxxxx
+
+## 成份
+...
+
+## 适应症
+...
+```
+
+### RAG优化版本
+
+自动生成的 `_optimized.md` 文件，专为RAG系统优化：
+
+```markdown
+# 药品名称
+
+**来源URL**: https://newdrugs.dxy.cn/pc/drug/xxxxx
+
+## 成份
+内容...
+
+[CHUNK_BOUNDARY]
+
+## 适应症
+内容...
+
+[CHUNK_BOUNDARY]
+```
 
 ### JSON格式
 

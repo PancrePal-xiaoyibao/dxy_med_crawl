@@ -1,0 +1,190 @@
+2025-09-15 10:14:59 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 10:15:42 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 10:16:48 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 10:48:19 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 10:48:28 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 10:48:38 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 10:49:20 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 10:49:30 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 11:35:09 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 11:36:09 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 11:38:00 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 11:38:01 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc
+2025-09-15 11:38:05 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 11:38:05 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc, 处理时间: 4.29s, 内容长度: 3815
+2025-09-15 11:38:05 - jina_processor - INFO - Jina AI处理完成，耗时: 4.29s
+2025-09-15 11:38:05 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7
+2025-09-15 11:38:12 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 11:38:12 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7, 处理时间: 7.29s, 内容长度: 9344
+2025-09-15 11:38:12 - jina_processor - INFO - Jina AI处理完成，耗时: 7.29s
+2025-09-15 11:38:13 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7
+2025-09-15 11:38:18 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 11:38:18 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7, 处理时间: 5.29s, 内容长度: 11079
+2025-09-15 11:38:18 - jina_processor - INFO - Jina AI处理完成，耗时: 5.29s
+2025-09-15 13:13:44 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 13:13:45 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc
+2025-09-15 13:13:52 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 13:13:52 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc, 处理时间: 7.80s, 内容长度: 3804
+2025-09-15 13:13:52 - jina_processor - INFO - Jina AI处理完成，耗时: 7.80s
+2025-09-15 13:13:53 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7
+2025-09-15 13:13:59 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 13:13:59 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7, 处理时间: 6.45s, 内容长度: 9347
+2025-09-15 13:13:59 - jina_processor - INFO - Jina AI处理完成，耗时: 6.45s
+2025-09-15 13:13:59 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7
+2025-09-15 13:14:06 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 13:14:06 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7, 处理时间: 7.02s, 内容长度: 11080
+2025-09-15 13:14:06 - jina_processor - INFO - Jina AI处理完成，耗时: 7.02s
+2025-09-15 13:15:55 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 13:15:56 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc
+2025-09-15 13:15:57 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 13:15:57 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc, 处理时间: 1.46s, 内容长度: 3811
+2025-09-15 13:15:57 - jina_processor - INFO - Jina AI处理完成，耗时: 1.46s
+2025-09-15 13:17:18 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 13:17:19 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc
+2025-09-15 13:17:20 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 13:17:20 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc, 处理时间: 1.36s, 内容长度: 3806
+2025-09-15 13:17:20 - jina_processor - INFO - Jina AI处理完成，耗时: 1.36s
+2025-09-15 13:18:04 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 13:18:05 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc
+2025-09-15 13:18:06 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 13:18:06 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc, 处理时间: 1.31s, 内容长度: 3804
+2025-09-15 13:18:06 - jina_processor - INFO - Jina AI处理完成，耗时: 1.31s
+2025-09-15 13:31:50 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 13:31:51 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc
+2025-09-15 13:31:53 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 13:31:53 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc, 处理时间: 1.86s, 内容长度: 3808
+2025-09-15 13:31:53 - jina_processor - INFO - Jina AI处理完成，耗时: 1.86s
+2025-09-15 13:32:52 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 13:32:53 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc
+2025-09-15 13:32:54 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 13:32:54 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc, 处理时间: 1.25s, 内容长度: 3806
+2025-09-15 13:32:54 - jina_processor - INFO - Jina AI处理完成，耗时: 1.25s
+2025-09-15 13:38:04 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 13:38:04 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc
+2025-09-15 13:38:07 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 13:38:07 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc, 处理时间: 2.28s, 内容长度: 3805
+2025-09-15 13:38:07 - jina_processor - INFO - Jina AI处理完成，耗时: 2.28s
+2025-09-15 13:39:48 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 13:39:49 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc
+2025-09-15 13:39:51 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 13:39:51 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc, 处理时间: 2.40s, 内容长度: 3813
+2025-09-15 13:39:51 - jina_processor - INFO - Jina AI处理完成，耗时: 2.40s
+2025-09-15 13:43:04 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 13:43:57 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7
+2025-09-15 13:43:59 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 13:43:59 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7, 处理时间: 2.33s, 内容长度: 11079
+2025-09-15 13:43:59 - jina_processor - INFO - Jina AI处理完成，耗时: 2.33s
+2025-09-15 13:49:21 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 13:49:33 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 13:49:33 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc
+2025-09-15 13:49:35 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 13:49:35 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc, 处理时间: 1.61s, 内容长度: 3806
+2025-09-15 13:49:35 - jina_processor - INFO - Jina AI处理完成，耗时: 1.61s
+2025-09-15 13:52:10 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 13:52:39 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 13:53:27 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 13:54:33 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 13:56:17 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 13:57:03 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 13:57:12 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 13:59:10 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 14:00:03 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 14:00:04 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:00:06 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 14:00:06 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 处理时间: 2.18s, 内容长度: 9329
+2025-09-15 14:00:06 - jina_processor - INFO - Jina AI处理完成，耗时: 2.18s
+2025-09-15 14:10:59 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 14:11:01 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:11:01 - jina_processor - WARNING - Jina AI请求异常 (尝试 1/3): HTTPSConnectionPool(host='r.jina.ai', port=443): Max retries exceeded with url: /https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)')))
+2025-09-15 14:11:01 - jina_processor - INFO - 等待 1s 后重试...
+2025-09-15 14:11:03 - jina_processor - INFO - Jina AI请求成功 (尝试 2/3)
+2025-09-15 14:11:03 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 处理时间: 2.44s, 内容长度: 9325
+2025-09-15 14:11:03 - jina_processor - INFO - Jina AI处理完成，耗时: 2.44s
+2025-09-15 14:14:56 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 14:14:57 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:14:58 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 14:14:58 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 处理时间: 1.24s, 内容长度: 9337
+2025-09-15 14:14:58 - jina_processor - INFO - Jina AI处理完成，耗时: 1.24s
+2025-09-15 14:17:36 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 14:17:37 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:17:39 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 14:17:39 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 处理时间: 2.17s, 内容长度: 9323
+2025-09-15 14:17:39 - jina_processor - INFO - Jina AI处理完成，耗时: 2.17s
+2025-09-15 14:19:32 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 14:19:32 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:19:34 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 14:19:34 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 处理时间: 1.23s, 内容长度: 9329
+2025-09-15 14:19:34 - jina_processor - INFO - Jina AI处理完成，耗时: 1.23s
+2025-09-15 14:21:59 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 14:22:00 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:22:02 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 14:22:02 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 处理时间: 1.64s, 内容长度: 9329
+2025-09-15 14:22:02 - jina_processor - INFO - Jina AI处理完成，耗时: 1.64s
+2025-09-15 14:25:11 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 14:25:51 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 14:25:51 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:25:53 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 14:25:53 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 处理时间: 1.42s, 内容长度: 9321
+2025-09-15 14:25:53 - jina_processor - INFO - Jina AI处理完成，耗时: 1.42s
+2025-09-15 14:30:02 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 14:30:02 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:30:04 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 14:30:04 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 处理时间: 1.40s, 内容长度: 9325
+2025-09-15 14:30:04 - jina_processor - INFO - Jina AI处理完成，耗时: 1.40s
+2025-09-15 16:12:49 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 16:12:51 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:12:59 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 16:12:59 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 处理时间: 8.76s, 内容长度: 9328
+2025-09-15 16:12:59 - jina_processor - INFO - Jina AI处理完成，耗时: 8.76s
+2025-09-15 16:15:38 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 16:15:38 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:15:40 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 16:15:40 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 处理时间: 1.56s, 内容长度: 9329
+2025-09-15 16:15:40 - jina_processor - INFO - Jina AI处理完成，耗时: 1.56s
+2025-09-15 16:17:10 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 16:17:11 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:17:12 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 16:17:13 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 处理时间: 1.53s, 内容长度: 9326
+2025-09-15 16:17:13 - jina_processor - INFO - Jina AI处理完成，耗时: 1.53s
+2025-09-15 16:18:19 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 16:18:20 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:18:22 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 16:18:22 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 处理时间: 1.63s, 内容长度: 9327
+2025-09-15 16:18:22 - jina_processor - INFO - Jina AI处理完成，耗时: 1.63s
+2025-09-15 16:20:24 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 16:20:25 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:20:26 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 16:20:26 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 处理时间: 1.45s, 内容长度: 9324
+2025-09-15 16:20:26 - jina_processor - INFO - Jina AI处理完成，耗时: 1.45s
+2025-09-15 16:23:02 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 16:23:04 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:23:06 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 16:23:06 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 处理时间: 1.46s, 内容长度: 9331
+2025-09-15 16:23:06 - jina_processor - INFO - Jina AI处理完成，耗时: 1.46s
+2025-09-15 16:30:29 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 16:30:30 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:30:33 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 16:30:33 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 处理时间: 3.30s, 内容长度: 9331
+2025-09-15 16:30:33 - jina_processor - INFO - Jina AI处理完成，耗时: 3.30s
+2025-09-15 16:31:02 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 16:31:03 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:31:03 - jina_processor - DEBUG - 构建Jina URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93 -> https://r.jina.ai//https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:31:03 - jina_processor - DEBUG - Jina AI处理URL: https://r.jina.ai//https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:31:03 - jina_processor - DEBUG - 第 1 次尝试请求Jina AI
+2025-09-15 16:31:05 - jina_processor - DEBUG - 收到文本响应，长度: 7918
+2025-09-15 16:31:05 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 16:31:05 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 处理时间: 1.73s, 内容长度: 9326
+2025-09-15 16:31:05 - jina_processor - INFO - Jina AI处理完成，耗时: 1.73s
+2025-09-15 16:41:26 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 16:41:26 - jina_processor - INFO - 开始通过Jina AI处理URL: https://newdrugs.dxy.cn/pc/drug/yojLj75H-71W5DSC0iJzPNw?ky=%E9%98%BF%E5%8F%B8%E5%8C%B9%E6%9E%97
+2025-09-15 16:41:26 - jina_processor - DEBUG - 构建Jina URL: https://newdrugs.dxy.cn/pc/drug/yojLj75H-71W5DSC0iJzPNw?ky=%E9%98%BF%E5%8F%B8%E5%8C%B9%E6%9E%97 -> https://r.jina.ai//https://newdrugs.dxy.cn/pc/drug/yojLj75H-71W5DSC0iJzPNw?ky=%E9%98%BF%E5%8F%B8%E5%8C%B9%E6%9E%97
+2025-09-15 16:41:26 - jina_processor - DEBUG - Jina AI处理URL: https://r.jina.ai//https://newdrugs.dxy.cn/pc/drug/yojLj75H-71W5DSC0iJzPNw?ky=%E9%98%BF%E5%8F%B8%E5%8C%B9%E6%9E%97
+2025-09-15 16:41:26 - jina_processor - DEBUG - 第 1 次尝试请求Jina AI
+2025-09-15 16:41:34 - jina_processor - DEBUG - 收到文本响应，长度: 3073
+2025-09-15 16:41:34 - jina_processor - INFO - Jina AI请求成功 (尝试 1/3)
+2025-09-15 16:41:34 - jina_processor - INFO - Jina AI处理成功 - URL: https://newdrugs.dxy.cn/pc/drug/yojLj75H-71W5DSC0iJzPNw?ky=%E9%98%BF%E5%8F%B8%E5%8C%B9%E6%9E%97, 处理时间: 7.43s, 内容长度: 4507
+2025-09-15 16:41:34 - jina_processor - INFO - Jina AI处理完成，耗时: 7.43s
+2025-09-15 16:48:47 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 16:50:04 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 16:51:43 - jina_processor - INFO - Jina AI处理器初始化完成
+2025-09-15 16:52:51 - jina_processor - INFO - Jina AI处理器初始化完成

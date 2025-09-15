@@ -1,0 +1,4 @@
+2025-09-15 16:31:08 - performance - DEBUG - 代码块 process_drug_data 执行时间: 0.002s, 平均时间: 0.002s, 调用次数: 1
+2025-09-15 16:31:08 - performance - DEBUG - 代码块 optimize_for_rag 执行时间: 0.005s, 平均时间: 0.005s, 调用次数: 1
+2025-09-15 16:41:34 - performance - DEBUG - 代码块 process_drug_data 执行时间: 0.001s, 平均时间: 0.001s, 调用次数: 1
+2025-09-15 16:41:34 - performance - DEBUG - 代码块 optimize_for_rag 执行时间: 0.000s, 平均时间: 0.000s, 调用次数: 1

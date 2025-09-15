@@ -1,0 +1,316 @@
+2025-09-15 10:14:15 - parser - INFO - 页面解析器初始化完成
+2025-09-15 10:14:59 - parser - INFO - 页面解析器初始化完成
+2025-09-15 10:15:42 - parser - INFO - 页面解析器初始化完成
+2025-09-15 10:16:48 - parser - INFO - 页面解析器初始化完成
+2025-09-15 10:48:19 - parser - INFO - 页面解析器初始化完成
+2025-09-15 10:48:20 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 10:48:20 - parser - ERROR - 解析搜索结果异常: object of type 'Response' has no len()
+2025-09-15 10:48:28 - parser - INFO - 页面解析器初始化完成
+2025-09-15 10:48:30 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 10:48:30 - parser - ERROR - 解析搜索结果异常: object of type 'Response' has no len()
+2025-09-15 10:48:38 - parser - INFO - 页面解析器初始化完成
+2025-09-15 10:48:38 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 10:48:38 - parser - ERROR - 解析搜索结果异常: object of type 'Response' has no len()
+2025-09-15 10:49:20 - parser - INFO - 页面解析器初始化完成
+2025-09-15 10:49:22 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 10:49:22 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 10:49:30 - parser - INFO - 页面解析器初始化完成
+2025-09-15 10:49:30 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 10:49:30 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 11:35:09 - parser - INFO - 页面解析器初始化完成
+2025-09-15 11:35:10 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 11:35:10 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 11:36:09 - parser - INFO - 页面解析器初始化完成
+2025-09-15 11:36:09 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 11:36:09 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 11:38:00 - parser - INFO - 页面解析器初始化完成
+2025-09-15 11:38:01 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 11:38:01 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 11:38:05 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc
+2025-09-15 11:38:05 - parser - ERROR - 解析药物详情异常: 'PerformanceLogger' object has no attribute 'get_current_time'
+2025-09-15 11:38:13 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7
+2025-09-15 11:38:13 - parser - ERROR - 解析药物详情异常: 'PerformanceLogger' object has no attribute 'get_current_time'
+2025-09-15 11:38:18 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7
+2025-09-15 11:38:18 - parser - ERROR - 解析药物详情异常: 'PerformanceLogger' object has no attribute 'get_current_time'
+2025-09-15 13:13:44 - parser - INFO - 页面解析器初始化完成
+2025-09-15 13:13:45 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 13:13:45 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 13:13:53 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc
+2025-09-15 13:13:53 - parser - ERROR - 解析药物详情异常: 'PerformanceLogger' object has no attribute 'get_current_time'
+2025-09-15 13:13:59 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7
+2025-09-15 13:13:59 - parser - ERROR - 解析药物详情异常: 'PerformanceLogger' object has no attribute 'get_current_time'
+2025-09-15 13:14:06 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7
+2025-09-15 13:14:06 - parser - ERROR - 解析药物详情异常: 'PerformanceLogger' object has no attribute 'get_current_time'
+2025-09-15 13:15:55 - parser - INFO - 页面解析器初始化完成
+2025-09-15 13:15:56 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 13:15:56 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 13:15:59 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc
+2025-09-15 13:15:59 - parser - INFO - 药物详情解析完成: 丁香园用药助手 - 实用临床决策工具
+2025-09-15 13:17:18 - parser - INFO - 页面解析器初始化完成
+2025-09-15 13:17:19 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 13:17:19 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 13:17:24 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc
+2025-09-15 13:17:24 - parser - INFO - 药物详情解析完成: 丁香园用药助手 - 实用临床决策工具
+2025-09-15 13:18:04 - parser - INFO - 页面解析器初始化完成
+2025-09-15 13:18:05 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 13:18:05 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 13:18:07 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc
+2025-09-15 13:18:08 - parser - INFO - 药物详情解析完成: 丁香园用药助手 - 实用临床决策工具
+2025-09-15 13:31:50 - parser - INFO - 页面解析器初始化完成
+2025-09-15 13:31:51 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 13:31:51 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 13:31:56 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc
+2025-09-15 13:31:56 - parser - INFO - 药物详情解析完成: 丁香园用药助手 - 实用临床决策工具
+2025-09-15 13:32:52 - parser - INFO - 页面解析器初始化完成
+2025-09-15 13:32:53 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 13:32:53 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 13:32:55 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc
+2025-09-15 13:32:55 - parser - INFO - 药物详情解析完成: 丁香园用药助手 - 实用临床决策工具
+2025-09-15 13:38:04 - parser - INFO - 页面解析器初始化完成
+2025-09-15 13:38:04 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 13:38:04 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 13:38:09 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc
+2025-09-15 13:38:09 - parser - INFO - 药物详情解析完成: 丁香园用药助手 - 实用临床决策工具
+2025-09-15 13:39:48 - parser - INFO - 页面解析器初始化完成
+2025-09-15 13:39:49 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 13:39:49 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 13:39:51 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc
+2025-09-15 13:39:51 - parser - INFO - 药物详情解析完成: 丁香园用药助手 - 实用临床决策工具
+2025-09-15 13:43:04 - parser - INFO - 页面解析器初始化完成
+2025-09-15 13:43:05 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 13:43:05 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 13:43:59 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7
+2025-09-15 13:43:59 - parser - INFO - 药物详情解析完成: 易安达（盐酸伊立替康脂质体注射液）
+2025-09-15 13:49:21 - parser - INFO - 页面解析器初始化完成
+2025-09-15 13:49:22 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 13:49:22 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 13:49:33 - parser - INFO - 页面解析器初始化完成
+2025-09-15 13:49:33 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 13:49:33 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 13:49:36 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc
+2025-09-15 13:49:36 - parser - INFO - 药物详情解析完成: 丁香园用药助手 - 实用临床决策工具
+2025-09-15 13:52:10 - parser - INFO - 页面解析器初始化完成
+2025-09-15 13:52:11 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 13:52:11 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 13:52:39 - parser - INFO - 页面解析器初始化完成
+2025-09-15 13:52:39 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 13:52:39 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 13:53:27 - parser - INFO - 页面解析器初始化完成
+2025-09-15 13:53:28 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 13:53:28 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 13:54:33 - parser - INFO - 页面解析器初始化完成
+2025-09-15 13:54:34 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 13:54:34 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 13:56:17 - parser - INFO - 页面解析器初始化完成
+2025-09-15 13:56:18 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 13:56:18 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 13:57:03 - parser - INFO - 页面解析器初始化完成
+2025-09-15 13:57:04 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 13:57:04 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 13:57:12 - parser - INFO - 页面解析器初始化完成
+2025-09-15 13:57:14 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 13:57:14 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 13:58:28 - parser - INFO - 页面解析器初始化完成
+2025-09-15 13:58:29 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 13:58:29 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 13:58:56 - parser - INFO - 页面解析器初始化完成
+2025-09-15 13:58:57 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 13:58:57 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 13:59:10 - parser - INFO - 页面解析器初始化完成
+2025-09-15 13:59:11 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 13:59:11 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 14:00:03 - parser - INFO - 页面解析器初始化完成
+2025-09-15 14:00:04 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 14:00:04 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 14:00:07 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:00:07 - parser - INFO - 药物详情解析完成: 开普拓（盐酸伊立替康注射液）
+2025-09-15 14:10:59 - parser - INFO - 页面解析器初始化完成
+2025-09-15 14:11:01 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 14:11:01 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 14:11:06 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:11:06 - parser - INFO - 药物详情解析完成: 开普拓（盐酸伊立替康注射液）
+2025-09-15 14:14:56 - parser - INFO - 页面解析器初始化完成
+2025-09-15 14:14:57 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 14:14:57 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 14:15:00 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:15:00 - parser - INFO - 药物详情解析完成: 开普拓（盐酸伊立替康注射液）
+2025-09-15 14:17:36 - parser - INFO - 页面解析器初始化完成
+2025-09-15 14:17:37 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 14:17:37 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 14:17:40 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:17:41 - parser - INFO - 药物详情解析完成: 开普拓（盐酸伊立替康注射液）
+2025-09-15 14:19:32 - parser - INFO - 页面解析器初始化完成
+2025-09-15 14:19:32 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 14:19:32 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 14:19:35 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:19:35 - parser - INFO - 药物详情解析完成: 开普拓（盐酸伊立替康注射液）
+2025-09-15 14:21:59 - parser - INFO - 页面解析器初始化完成
+2025-09-15 14:22:00 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 14:22:00 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 14:22:02 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:22:02 - parser - INFO - 药物详情解析完成: 开普拓（盐酸伊立替康注射液）
+2025-09-15 14:25:11 - parser - INFO - 页面解析器初始化完成
+2025-09-15 14:25:51 - parser - INFO - 页面解析器初始化完成
+2025-09-15 14:25:51 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 14:25:51 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 14:25:54 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:25:54 - parser - INFO - 药物详情解析完成: 开普拓（盐酸伊立替康注射液）
+2025-09-15 14:30:02 - parser - INFO - 页面解析器初始化完成
+2025-09-15 14:30:02 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 14:30:02 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 14:30:07 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:30:07 - parser - INFO - 药物详情解析完成: 开普拓（盐酸伊立替康注射液）
+2025-09-15 16:12:49 - parser - INFO - 页面解析器初始化完成
+2025-09-15 16:12:51 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 16:12:51 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 16:13:00 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:13:00 - parser - INFO - 药物详情解析完成: 开普拓（盐酸伊立替康注射液）
+2025-09-15 16:15:38 - parser - INFO - 页面解析器初始化完成
+2025-09-15 16:15:38 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 16:15:38 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 16:15:41 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:15:41 - parser - INFO - 药物详情解析完成: 开普拓（盐酸伊立替康注射液）
+2025-09-15 16:17:10 - parser - INFO - 页面解析器初始化完成
+2025-09-15 16:17:11 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 16:17:11 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 16:17:13 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:17:13 - parser - INFO - 药物详情解析完成: 开普拓（盐酸伊立替康注射液）
+2025-09-15 16:18:19 - parser - INFO - 页面解析器初始化完成
+2025-09-15 16:18:20 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 16:18:20 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 16:18:22 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:18:22 - parser - INFO - 药物详情解析完成: 开普拓（盐酸伊立替康注射液）
+2025-09-15 16:20:24 - parser - INFO - 页面解析器初始化完成
+2025-09-15 16:20:25 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 16:20:25 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 16:20:29 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:20:29 - parser - INFO - 药物详情解析完成: 开普拓（盐酸伊立替康注射液）
+2025-09-15 16:23:02 - parser - INFO - 页面解析器初始化完成
+2025-09-15 16:23:04 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 16:23:04 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 16:23:07 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:23:07 - parser - INFO - 药物详情解析完成: 开普拓（盐酸伊立替康注射液）
+2025-09-15 16:30:29 - parser - INFO - 页面解析器初始化完成
+2025-09-15 16:30:30 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 16:30:30 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 16:30:33 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:30:33 - parser - INFO - 药物详情解析完成: 开普拓（盐酸伊立替康注射液）
+2025-09-15 16:31:02 - parser - INFO - 页面解析器初始化完成
+2025-09-15 16:31:03 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 16:31:03 - parser - DEBUG - 使用选择器 '[class*="drug"]' 找到 10 个卡片
+2025-09-15 16:31:03 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<h3 class="DrugsItem_drugs-item-name__ttrZ7"><span><font color="#7753ff">开普拓</font>（<font color="#7753ff">盐酸伊立替康注射液</font>） 2mL；5mL；15mL</span></h3>'}
+2025-09-15 16:31:03 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<p class="DrugsItem_drugs-item-cnName__UrsBu">厂商：<span>Pfizer Australia Pty L</span>\xa0\xa0\xa0<!-- -->成分：<span>本品主要成份及其化学名称为：盐酸伊立替康，4</span></p>'}
+2025-09-15 16:31:03 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<h3 class="DrugsItem_drugs-item-name__ttrZ7"><span>亿迈林（<font color="#7753ff">盐酸伊立替康注射液</font>） 2mL：40mg；5mL：0.1g</span></h3>'}
+2025-09-15 16:31:03 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<p class="DrugsItem_drugs-item-cnName__UrsBu">厂商：<span>齐鲁制药（海南）有限公司</span>\xa0\xa0\xa0<!-- -->成分：<span>本品主要成份为<font color="#7753ff">盐</font>酸伊立替康。\n\n\n\n化学</span></p>'}
+2025-09-15 16:31:03 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<h3 class="DrugsItem_drugs-item-name__ttrZ7"><span><font color="#7753ff">盐酸伊立替康注射液</font>（江苏恒瑞） 2mL：40mg；5mL：100mg</span></h3>'}
+2025-09-15 16:31:03 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<p class="DrugsItem_drugs-item-cnName__UrsBu">厂商：<span>江苏恒瑞医药股份有限公司</span>\xa0\xa0\xa0<!-- -->成分：<span>本品主要成份为<font color="#7753ff">盐</font>酸伊立替康。化学名称：4</span></p>'}
+2025-09-15 16:31:03 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 16:31:08 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:31:08 - parser - DEBUG - 提取基本信息: {'name': '开普拓（盐酸伊立替康注射液）'}
+2025-09-15 16:31:08 - parser - DEBUG - 在章节 不良反应 中发现 2 个表格
+2025-09-15 16:31:08 - parser - DEBUG - 添加表格外文本: 联合治疗在两项 III 期研究中，共有 995 名转移性结直肠癌患者接受盐酸伊立替康/5-FU/LV、单用 5-FU/LV、或盐酸伊立替康单药治疗（见临床研究，表 8）。在这些研究中，370 例患者接...
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 1: 1046 字符
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 2: 884 字符
+2025-09-15 16:31:08 - parser - DEBUG - 在章节 不良反应 中发现 2 个表格
+2025-09-15 16:31:08 - parser - DEBUG - 添加表格外文本: 联合治疗在两项 III 期研究中，共有 995 名转移性结直肠癌患者接受盐酸伊立替康/5-FU/LV、单用 5-FU/LV、或盐酸伊立替康单药治疗（见临床研究，表 8）。在这些研究中，370 例患者接...
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 1: 1046 字符
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 2: 884 字符
+2025-09-15 16:31:08 - parser - DEBUG - 在章节 不良反应 中发现 1 个表格
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 1: 1046 字符
+2025-09-15 16:31:08 - parser - DEBUG - 在章节 不良反应 中发现 1 个表格
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 1: 884 字符
+2025-09-15 16:31:08 - parser - DEBUG - 在章节 药代动力学 中发现 1 个表格
+2025-09-15 16:31:08 - parser - DEBUG - 添加表格外文本: 吸收和分布在对不同类型肿瘤患者静脉滴注盐酸伊立替康后，其血浆浓度以多指数的形式下降，平均终末清除半衰期为 6 至 12 小时。活性代谢产物 SN-38 的平均终末清除半衰期为 10 至 20 个小时。...
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 1: 190 字符
+2025-09-15 16:31:08 - parser - DEBUG - 在章节 药代动力学 中发现 1 个表格
+2025-09-15 16:31:08 - parser - DEBUG - 添加表格外文本: 吸收和分布在对不同类型肿瘤患者静脉滴注盐酸伊立替康后，其血浆浓度以多指数的形式下降，平均终末清除半衰期为 6 至 12 小时。活性代谢产物 SN-38 的平均终末清除半衰期为 10 至 20 个小时。...
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 1: 190 字符
+2025-09-15 16:31:08 - parser - DEBUG - 在章节 药代动力学 中发现 1 个表格
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 1: 190 字符
+2025-09-15 16:31:08 - parser - DEBUG - 在章节 药代动力学 中发现 5 个表格
+2025-09-15 16:31:08 - parser - DEBUG - 添加表格外文本: 临床试验对本品与 5-FU 和 LV 联用作为治疗转移性结直肠癌的一线方案以及初次治疗失败后使用单药方案进行了临床研究。单药使用盐酸伊立替康进行了每周给药方案和每三周一次给药方案的研究。联合化疗进行了...
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 1: 199 字符
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 2: 887 字符
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 3: 761 字符
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 4: 320 字符
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 5: 617 字符
+2025-09-15 16:31:08 - parser - DEBUG - 在章节 药代动力学 中发现 5 个表格
+2025-09-15 16:31:08 - parser - DEBUG - 添加表格外文本: 对本品与 5-FU 和 LV 联用作为治疗转移性结直肠癌的一线方案以及初次治疗失败后使用单药方案进行了临床研究。单药使用盐酸伊立替康进行了每周给药方案和每三周一次给药方案的研究。联合化疗进行了本品的每...
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 1: 199 字符
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 2: 887 字符
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 3: 761 字符
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 4: 320 字符
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 5: 617 字符
+2025-09-15 16:31:08 - parser - DEBUG - 在章节 药代动力学 中发现 5 个表格
+2025-09-15 16:31:08 - parser - DEBUG - 添加表格外文本: 对本品与 5-FU 和 LV 联用作为治疗转移性结直肠癌的一线方案以及初次治疗失败后使用单药方案进行了临床研究。单药使用盐酸伊立替康进行了每周给药方案和每三周一次给药方案的研究。联合化疗进行了本品的每...
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 1: 199 字符
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 2: 887 字符
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 3: 761 字符
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 4: 320 字符
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 5: 617 字符
+2025-09-15 16:31:08 - parser - DEBUG - 在章节 药代动力学 中发现 1 个表格
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 1: 199 字符
+2025-09-15 16:31:08 - parser - DEBUG - 在章节 药代动力学 中发现 1 个表格
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 1: 887 字符
+2025-09-15 16:31:08 - parser - DEBUG - 在章节 药代动力学 中发现 1 个表格
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 1: 761 字符
+2025-09-15 16:31:08 - parser - DEBUG - 在章节 药代动力学 中发现 1 个表格
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 1: 320 字符
+2025-09-15 16:31:08 - parser - DEBUG - 在章节 药代动力学 中发现 1 个表格
+2025-09-15 16:31:08 - parser - DEBUG - 成功转换表格 1: 617 字符
+2025-09-15 16:31:08 - parser - DEBUG - 提取到 10 个说明书章节
+2025-09-15 16:31:08 - parser - INFO - 药物详情解析完成: 开普拓（盐酸伊立替康注射液）
+2025-09-15 16:41:26 - parser - INFO - 页面解析器初始化完成
+2025-09-15 16:41:26 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 16:41:26 - parser - DEBUG - 使用选择器 '[class*="drug"]' 找到 11 个卡片
+2025-09-15 16:41:26 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<h3 class="DrugsItem_drugs-item-name__ttrZ7"><span>拜阿司匹灵（<font color="#7753ff">阿司匹林</font>肠溶片） 100mg</span></h3>'}
+2025-09-15 16:41:26 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<p class="DrugsItem_drugs-item-cnName__UrsBu">厂商：<span>Bayer S.p.A.</span>\xa0\xa0\xa0<!-- -->成分：<span>主要成份：<font color="#7753ff">阿司匹林</font>。\n\n\n\n\n化学名称：2</span></p>'}
+2025-09-15 16:41:26 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<p class="DrugsItem_drugs-item-indication___zGt9">适应症：<span>后预防脑梗死。说明：<font color="#7753ff">阿司匹林</font>肠溶片因其活性</span></p>'}
+2025-09-15 16:41:26 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<h3 class="DrugsItem_drugs-item-name__ttrZ7"><span><font color="#7753ff">阿司匹林</font>肠溶片（临汾宝珠） 25mg</span></h3>'}
+2025-09-15 16:41:26 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<p class="DrugsItem_drugs-item-cnName__UrsBu">厂商：<span>临汾宝珠制药有限公司</span>\xa0\xa0\xa0<!-- -->成分：<span>本品主要成份为：<font color="#7753ff">阿司匹林</font>，其化学名称为：2</span></p>'}
+2025-09-15 16:41:26 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<h3 class="DrugsItem_drugs-item-name__ttrZ7"><span>银普明（注射用精氨酸<font color="#7753ff">阿司匹林</font>） 0.5g</span></h3>'}
+2025-09-15 16:41:26 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<p class="DrugsItem_drugs-item-cnName__UrsBu">厂商：<span>海南葫芦娃药业集团股份有限公司</span>\xa0\xa0\xa0<!-- -->成分：<span>本品主要成份为精氨酸<font color="#7753ff">阿司匹林</font>。辅料未添加</span></p>'}
+2025-09-15 16:41:26 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 16:41:34 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc/drug/yojLj75H-71W5DSC0iJzPNw?ky=%E9%98%BF%E5%8F%B8%E5%8C%B9%E6%9E%97
+2025-09-15 16:41:34 - parser - DEBUG - 提取基本信息: {'name': '拜阿司匹灵（阿司匹林肠溶片）'}
+2025-09-15 16:41:34 - parser - DEBUG - 提取到 9 个说明书章节
+2025-09-15 16:41:34 - parser - INFO - 药物详情解析完成: 拜阿司匹灵（阿司匹林肠溶片）
+2025-09-15 16:48:47 - parser - INFO - 页面解析器初始化完成
+2025-09-15 16:48:48 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 16:48:48 - parser - DEBUG - 使用选择器 '[class*="drug"]' 找到 11 个卡片
+2025-09-15 16:48:48 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<h3 class="DrugsItem_drugs-item-name__ttrZ7"><span><font color="#7753ff">拜阿司匹灵</font>（<font color="#7753ff">阿司匹林肠溶片</font>） 100mg</span></h3>'}
+2025-09-15 16:48:48 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<p class="DrugsItem_drugs-item-cnName__UrsBu">厂商：<span>Bayer S.p.A.</span>\xa0\xa0\xa0<!-- -->成分：<span>主要成份：阿司匹林。\n\n\n\n\n化学名称：2-</span></p>'}
+2025-09-15 16:48:48 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<p class="DrugsItem_drugs-item-indication___zGt9">适应症：<span>后预防脑梗死。说明：<font color="#7753ff">阿司匹林肠溶片</font>因其活性</span></p>'}
+2025-09-15 16:48:48 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<h3 class="DrugsItem_drugs-item-name__ttrZ7"><span><font color="#7753ff">阿司匹林肠溶片</font>（临汾宝珠） 25mg</span></h3>'}
+2025-09-15 16:48:48 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<p class="DrugsItem_drugs-item-cnName__UrsBu">厂商：<span>临汾宝珠制药有限公司</span>\xa0\xa0\xa0<!-- -->成分：<span>本品主要成份为：阿司匹林，其化学名称为：2-</span></p>'}
+2025-09-15 16:48:48 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<h3 class="DrugsItem_drugs-item-name__ttrZ7"><span><font color="#7753ff">阿司匹林肠溶片</font>（北京曙光） 40mg</span></h3>'}
+2025-09-15 16:48:48 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<p class="DrugsItem_drugs-item-cnName__UrsBu">厂商：<span>北京曙光药业有限责任公司</span>\xa0\xa0\xa0<!-- -->成分：<span>本品主要成份为：阿司匹林</span></p>'}
+2025-09-15 16:48:48 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 16:50:04 - parser - INFO - 页面解析器初始化完成
+2025-09-15 16:50:04 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 16:50:04 - parser - DEBUG - 使用选择器 '[class*="drug"]' 找到 4 个卡片
+2025-09-15 16:50:04 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<h3 class="DrugsItem_drugs-item-name__ttrZ7"><span>优赫得（注射用<font color="#7753ff">德曲</font><font color="#7753ff">妥</font><font color="#7753ff">珠</font>单抗） 100mg</span></h3>'}
+2025-09-15 16:50:04 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<p class="DrugsItem_drugs-item-cnName__UrsBu">厂商：<span>Daiichi Sankyo Europe </span>\xa0\xa0\xa0<!-- -->成分：<span>活性成份：德曲妥珠单抗德曲妥珠单抗是一种靶向</span></p>'}
+2025-09-15 16:50:04 - parser - INFO - 解析完成，找到 2 个药物
+2025-09-15 16:51:43 - parser - INFO - 页面解析器初始化完成
+2025-09-15 16:51:43 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 16:51:43 - parser - DEBUG - 使用选择器 '[class*="drug"]' 找到 11 个卡片
+2025-09-15 16:51:43 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<h3 class="DrugsItem_drugs-item-name__ttrZ7"><span><font color="#7753ff">拜阿司匹灵</font>（<font color="#7753ff">阿司匹林肠溶片</font>） 100mg</span></h3>'}
+2025-09-15 16:51:43 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<p class="DrugsItem_drugs-item-cnName__UrsBu">厂商：<span>Bayer S.p.A.</span>\xa0\xa0\xa0<!-- -->成分：<span>主要成份：阿司匹林。\n\n\n\n\n化学名称：2-</span></p>'}
+2025-09-15 16:51:43 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<p class="DrugsItem_drugs-item-indication___zGt9">适应症：<span>后预防脑梗死。说明：<font color="#7753ff">阿司匹林肠溶片</font>因其活性</span></p>'}
+2025-09-15 16:51:43 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<h3 class="DrugsItem_drugs-item-name__ttrZ7"><span><font color="#7753ff">阿司匹林肠溶片</font>（临汾宝珠） 25mg</span></h3>'}
+2025-09-15 16:51:43 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<p class="DrugsItem_drugs-item-cnName__UrsBu">厂商：<span>临汾宝珠制药有限公司</span>\xa0\xa0\xa0<!-- -->成分：<span>本品主要成份为：阿司匹林，其化学名称为：2-</span></p>'}
+2025-09-15 16:51:43 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<h3 class="DrugsItem_drugs-item-name__ttrZ7"><span><font color="#7753ff">阿司匹林肠溶片</font>（北京曙光） 40mg</span></h3>'}
+2025-09-15 16:51:43 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<p class="DrugsItem_drugs-item-cnName__UrsBu">厂商：<span>北京曙光药业有限责任公司</span>\xa0\xa0\xa0<!-- -->成分：<span>本品主要成份为：阿司匹林</span></p>'}
+2025-09-15 16:51:43 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 16:52:51 - parser - INFO - 页面解析器初始化完成
+2025-09-15 16:52:53 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 16:52:53 - parser - DEBUG - 使用选择器 '[class*="drug"]' 找到 11 个卡片
+2025-09-15 16:52:53 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<h3 class="DrugsItem_drugs-item-name__ttrZ7"><span><font color="#7753ff">拜阿司匹灵</font>（<font color="#7753ff">阿司匹林肠溶片</font>） 100mg</span></h3>'}
+2025-09-15 16:52:53 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<p class="DrugsItem_drugs-item-cnName__UrsBu">厂商：<span>Bayer S.p.A.</span>\xa0\xa0\xa0<!-- -->成分：<span>主要成份：阿司匹林。\n\n\n\n\n化学名称：2-</span></p>'}
+2025-09-15 16:52:53 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<p class="DrugsItem_drugs-item-indication___zGt9">适应症：<span>后预防脑梗死。说明：<font color="#7753ff">阿司匹林肠溶片</font>因其活性</span></p>'}
+2025-09-15 16:52:53 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<h3 class="DrugsItem_drugs-item-name__ttrZ7"><span><font color="#7753ff">阿司匹林肠溶片</font>（临汾宝珠） 25mg</span></h3>'}
+2025-09-15 16:52:53 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<p class="DrugsItem_drugs-item-cnName__UrsBu">厂商：<span>临汾宝珠制药有限公司</span>\xa0\xa0\xa0<!-- -->成分：<span>本品主要成份为：阿司匹林，其化学名称为：2-</span></p>'}
+2025-09-15 16:52:53 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<h3 class="DrugsItem_drugs-item-name__ttrZ7"><span><font color="#7753ff">阿司匹林肠溶片</font>（北京曙光） 40mg</span></h3>'}
+2025-09-15 16:52:53 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<p class="DrugsItem_drugs-item-cnName__UrsBu">厂商：<span>北京曙光药业有限责任公司</span>\xa0\xa0\xa0<!-- -->成分：<span>本品主要成份为：阿司匹林</span></p>'}
+2025-09-15 16:52:53 - parser - INFO - 解析完成，找到 4 个药物

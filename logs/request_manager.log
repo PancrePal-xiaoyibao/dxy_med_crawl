@@ -1,0 +1,352 @@
+2025-09-15 10:13:39 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 10:14:15 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 10:14:59 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 10:15:42 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 10:16:48 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 10:16:48 - request_manager - INFO - 搜索药品: 伊立替康
+2025-09-15 10:16:49 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 0.68s, 响应大小: 65269字节
+2025-09-15 10:16:49 - request_manager - INFO - 搜索成功: 伊立替康, 响应长度: 62921
+2025-09-15 10:48:19 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 10:48:19 - request_manager - INFO - 搜索药品: 伊立替康
+2025-09-15 10:48:20 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 0.53s, 响应大小: 65269字节
+2025-09-15 10:48:20 - request_manager - INFO - 搜索成功: 伊立替康, 响应长度: 62921
+2025-09-15 10:48:20 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 10:48:28 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 10:48:29 - request_manager - INFO - 搜索药品: 伊立替康
+2025-09-15 10:48:30 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 1.44s, 响应大小: 65269字节
+2025-09-15 10:48:30 - request_manager - INFO - 搜索成功: 伊立替康, 响应长度: 62921
+2025-09-15 10:48:30 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 10:48:38 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 10:48:38 - request_manager - INFO - 搜索药品: 伊立替康
+2025-09-15 10:48:38 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 0.30s, 响应大小: 65269字节
+2025-09-15 10:48:38 - request_manager - INFO - 搜索成功: 伊立替康, 响应长度: 62921
+2025-09-15 10:48:38 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 10:49:20 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 10:49:21 - request_manager - INFO - 搜索药品: 伊立替康
+2025-09-15 10:49:22 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 1.34s, 响应大小: 65269字节
+2025-09-15 10:49:22 - request_manager - INFO - 搜索成功: 伊立替康, 响应长度: 62921
+2025-09-15 10:49:22 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 10:49:30 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 10:49:30 - request_manager - INFO - 搜索药品: 伊立替康
+2025-09-15 10:49:30 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 0.31s, 响应大小: 65269字节
+2025-09-15 10:49:30 - request_manager - INFO - 搜索成功: 伊立替康, 响应长度: 62921
+2025-09-15 10:49:30 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 11:35:09 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 11:35:09 - request_manager - INFO - 搜索药品: 伊立替康
+2025-09-15 11:35:10 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 0.56s, 响应大小: 65269字节
+2025-09-15 11:35:10 - request_manager - INFO - 搜索成功: 伊立替康, 响应长度: 62921
+2025-09-15 11:35:10 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 11:36:09 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 11:36:09 - request_manager - INFO - 搜索药品: 伊立替康
+2025-09-15 11:36:09 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 0.30s, 响应大小: 65269字节
+2025-09-15 11:36:09 - request_manager - INFO - 搜索成功: 伊立替康, 响应长度: 62921
+2025-09-15 11:36:09 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 11:38:00 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 11:38:00 - request_manager - INFO - 搜索药品: 伊立替康
+2025-09-15 11:38:01 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 0.29s, 响应大小: 65269字节
+2025-09-15 11:38:01 - request_manager - INFO - 搜索成功: 伊立替康, 响应长度: 62921
+2025-09-15 11:38:05 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc
+2025-09-15 11:38:05 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc - 状态码: 200, 耗时: 0.07s, 响应大小: 77896字节
+2025-09-15 11:38:05 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc, 响应长度: 71608
+2025-09-15 11:38:12 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7
+2025-09-15 11:38:13 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 0.16s, 响应大小: 264707字节
+2025-09-15 11:38:13 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7, 响应长度: 223691
+2025-09-15 11:38:18 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7
+2025-09-15 11:38:18 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 0.13s, 响应大小: 147941字节
+2025-09-15 11:38:18 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7, 响应长度: 123081
+2025-09-15 11:38:18 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 13:13:44 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 13:13:44 - request_manager - INFO - 搜索药品: 伊立替康
+2025-09-15 13:13:45 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 0.49s, 响应大小: 65269字节
+2025-09-15 13:13:45 - request_manager - INFO - 搜索成功: 伊立替康, 响应长度: 62921
+2025-09-15 13:13:52 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc
+2025-09-15 13:13:53 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc - 状态码: 200, 耗时: 0.07s, 响应大小: 77896字节
+2025-09-15 13:13:53 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc, 响应长度: 71608
+2025-09-15 13:13:59 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7
+2025-09-15 13:13:59 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 0.19s, 响应大小: 264707字节
+2025-09-15 13:13:59 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7, 响应长度: 223691
+2025-09-15 13:14:06 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7
+2025-09-15 13:14:06 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 0.12s, 响应大小: 147941字节
+2025-09-15 13:14:06 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7, 响应长度: 123081
+2025-09-15 13:14:06 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 13:15:55 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 13:15:55 - request_manager - INFO - 搜索药品: 伊立替康
+2025-09-15 13:15:56 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 0.30s, 响应大小: 65269字节
+2025-09-15 13:15:56 - request_manager - INFO - 搜索成功: 伊立替康, 响应长度: 62921
+2025-09-15 13:15:57 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc
+2025-09-15 13:15:59 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc - 状态码: 200, 耗时: 1.36s, 响应大小: 77896字节
+2025-09-15 13:15:59 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc, 响应长度: 71608
+2025-09-15 13:15:59 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 13:17:18 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 13:17:19 - request_manager - INFO - 搜索药品: 伊立替康
+2025-09-15 13:17:19 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 0.26s, 响应大小: 65269字节
+2025-09-15 13:17:19 - request_manager - INFO - 搜索成功: 伊立替康, 响应长度: 62921
+2025-09-15 13:17:20 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc
+2025-09-15 13:17:24 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc - 状态码: 200, 耗时: 3.67s, 响应大小: 77896字节
+2025-09-15 13:17:24 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc, 响应长度: 71608
+2025-09-15 13:17:24 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 13:18:04 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 13:18:04 - request_manager - INFO - 搜索药品: 伊立替康
+2025-09-15 13:18:05 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 0.29s, 响应大小: 65269字节
+2025-09-15 13:18:05 - request_manager - INFO - 搜索成功: 伊立替康, 响应长度: 62921
+2025-09-15 13:18:06 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc
+2025-09-15 13:18:07 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc - 状态码: 200, 耗时: 1.40s, 响应大小: 77896字节
+2025-09-15 13:18:07 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc, 响应长度: 71608
+2025-09-15 13:18:08 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 13:31:50 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 13:31:51 - request_manager - INFO - 搜索药品: 伊立替康
+2025-09-15 13:31:51 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 0.46s, 响应大小: 65269字节
+2025-09-15 13:31:51 - request_manager - INFO - 搜索成功: 伊立替康, 响应长度: 62921
+2025-09-15 13:31:53 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc
+2025-09-15 13:31:56 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc - 状态码: 200, 耗时: 3.05s, 响应大小: 77896字节
+2025-09-15 13:31:56 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc, 响应长度: 71608
+2025-09-15 13:31:56 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 13:32:52 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 13:32:52 - request_manager - INFO - 搜索药品: 伊立替康
+2025-09-15 13:32:53 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 0.27s, 响应大小: 65269字节
+2025-09-15 13:32:53 - request_manager - INFO - 搜索成功: 伊立替康, 响应长度: 62921
+2025-09-15 13:32:54 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc
+2025-09-15 13:32:55 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc - 状态码: 200, 耗时: 0.93s, 响应大小: 77896字节
+2025-09-15 13:32:55 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc, 响应长度: 71608
+2025-09-15 13:32:55 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 13:38:04 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 13:38:04 - request_manager - INFO - 搜索药品: 伊立替康
+2025-09-15 13:38:04 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 0.29s, 响应大小: 65269字节
+2025-09-15 13:38:04 - request_manager - INFO - 搜索成功: 伊立替康, 响应长度: 62921
+2025-09-15 13:38:07 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc
+2025-09-15 13:38:09 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc - 状态码: 200, 耗时: 2.44s, 响应大小: 77896字节
+2025-09-15 13:38:09 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc, 响应长度: 71608
+2025-09-15 13:38:09 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 13:39:48 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 13:39:49 - request_manager - INFO - 搜索药品: 伊立替康
+2025-09-15 13:39:49 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 0.28s, 响应大小: 65269字节
+2025-09-15 13:39:49 - request_manager - INFO - 搜索成功: 伊立替康, 响应长度: 62921
+2025-09-15 13:39:51 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc
+2025-09-15 13:39:51 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc - 状态码: 200, 耗时: 0.06s, 响应大小: 77896字节
+2025-09-15 13:39:51 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc, 响应长度: 71608
+2025-09-15 13:39:51 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 13:43:04 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 13:43:05 - request_manager - INFO - 搜索药品: 伊立替康
+2025-09-15 13:43:05 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 0.45s, 响应大小: 65269字节
+2025-09-15 13:43:05 - request_manager - INFO - 搜索成功: 伊立替康, 响应长度: 62921
+2025-09-15 13:43:59 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7
+2025-09-15 13:43:59 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 0.19s, 响应大小: 147941字节
+2025-09-15 13:43:59 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7, 响应长度: 123081
+2025-09-15 13:44:00 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 13:49:21 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 13:49:21 - request_manager - INFO - 搜索药品: 伊立替康
+2025-09-15 13:49:22 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 0.26s, 响应大小: 65269字节
+2025-09-15 13:49:22 - request_manager - INFO - 搜索成功: 伊立替康, 响应长度: 62921
+2025-09-15 13:49:31 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 13:49:33 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 13:49:33 - request_manager - INFO - 搜索药品: 伊立替康
+2025-09-15 13:49:33 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 0.26s, 响应大小: 65269字节
+2025-09-15 13:49:33 - request_manager - INFO - 搜索成功: 伊立替康, 响应长度: 62921
+2025-09-15 13:49:35 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc
+2025-09-15 13:49:36 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc - 状态码: 200, 耗时: 1.49s, 响应大小: 77896字节
+2025-09-15 13:49:36 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc, 响应长度: 71608
+2025-09-15 13:49:36 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 13:52:10 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 13:52:11 - request_manager - INFO - 搜索药品: 伊立替康
+2025-09-15 13:52:11 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 0.26s, 响应大小: 65269字节
+2025-09-15 13:52:11 - request_manager - INFO - 搜索成功: 伊立替康, 响应长度: 62921
+2025-09-15 13:52:37 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 13:52:39 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 13:52:39 - request_manager - INFO - 搜索药品: 伊立替康
+2025-09-15 13:52:39 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 0.27s, 响应大小: 65269字节
+2025-09-15 13:52:39 - request_manager - INFO - 搜索成功: 伊立替康, 响应长度: 62921
+2025-09-15 13:52:40 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 13:53:27 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 13:53:27 - request_manager - INFO - 搜索药品: 布洛芬
+2025-09-15 13:53:28 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E5%B8%83%E6%B4%9B%E8%8A%AC - 状态码: 200, 耗时: 0.42s, 响应大小: 64984字节
+2025-09-15 13:53:28 - request_manager - INFO - 搜索成功: 布洛芬, 响应长度: 62312
+2025-09-15 13:53:30 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 13:54:33 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 13:54:34 - request_manager - INFO - 搜索药品: 布洛芬
+2025-09-15 13:54:34 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E5%B8%83%E6%B4%9B%E8%8A%AC - 状态码: 200, 耗时: 0.34s, 响应大小: 64984字节
+2025-09-15 13:54:34 - request_manager - INFO - 搜索成功: 布洛芬, 响应长度: 62312
+2025-09-15 13:54:41 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 13:56:17 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 13:56:18 - request_manager - INFO - 搜索药品: 开普拓
+2025-09-15 13:56:18 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 0.52s, 响应大小: 65356字节
+2025-09-15 13:56:18 - request_manager - INFO - 搜索成功: 开普拓, 响应长度: 62968
+2025-09-15 13:56:20 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 13:57:03 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 13:57:04 - request_manager - INFO - 搜索药品: 开普拓
+2025-09-15 13:57:04 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 0.27s, 响应大小: 65356字节
+2025-09-15 13:57:04 - request_manager - INFO - 搜索成功: 开普拓, 响应长度: 62968
+2025-09-15 13:57:05 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 13:57:12 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 13:57:13 - request_manager - INFO - 搜索药品: 开普拓
+2025-09-15 13:57:14 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 1.41s, 响应大小: 65356字节
+2025-09-15 13:57:14 - request_manager - INFO - 搜索成功: 开普拓, 响应长度: 62968
+2025-09-15 13:57:15 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 13:58:28 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 13:58:28 - request_manager - INFO - 搜索药品: 开普拓
+2025-09-15 13:58:29 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 0.31s, 响应大小: 65356字节
+2025-09-15 13:58:29 - request_manager - INFO - 搜索成功: 开普拓, 响应长度: 62968
+2025-09-15 13:58:56 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 13:58:56 - request_manager - INFO - 搜索药品: 开普拓
+2025-09-15 13:58:57 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 0.25s, 响应大小: 65356字节
+2025-09-15 13:58:57 - request_manager - INFO - 搜索成功: 开普拓, 响应长度: 62968
+2025-09-15 13:59:10 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 13:59:11 - request_manager - INFO - 搜索药品: 开普拓
+2025-09-15 13:59:11 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 0.29s, 响应大小: 65356字节
+2025-09-15 13:59:11 - request_manager - INFO - 搜索成功: 开普拓, 响应长度: 62968
+2025-09-15 13:59:19 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 14:00:03 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 14:00:03 - request_manager - INFO - 搜索药品: 开普拓
+2025-09-15 14:00:04 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 0.34s, 响应大小: 65356字节
+2025-09-15 14:00:04 - request_manager - INFO - 搜索成功: 开普拓, 响应长度: 62968
+2025-09-15 14:00:06 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:00:07 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 0.82s, 响应大小: 264683字节
+2025-09-15 14:00:07 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 响应长度: 223671
+2025-09-15 14:00:07 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 14:10:59 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 14:11:00 - request_manager - INFO - 搜索药品: 开普拓
+2025-09-15 14:11:01 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 0.79s, 响应大小: 65356字节
+2025-09-15 14:11:01 - request_manager - INFO - 搜索成功: 开普拓, 响应长度: 62968
+2025-09-15 14:11:03 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:11:06 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 2.70s, 响应大小: 264683字节
+2025-09-15 14:11:06 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 响应长度: 223671
+2025-09-15 14:11:06 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 14:14:56 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 14:14:56 - request_manager - INFO - 搜索药品: 开普拓
+2025-09-15 14:14:57 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 0.30s, 响应大小: 65356字节
+2025-09-15 14:14:57 - request_manager - INFO - 搜索成功: 开普拓, 响应长度: 62968
+2025-09-15 14:14:58 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:15:00 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 1.65s, 响应大小: 264683字节
+2025-09-15 14:15:00 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 响应长度: 223671
+2025-09-15 14:15:00 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 14:17:36 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 14:17:36 - request_manager - INFO - 搜索药品: 开普拓
+2025-09-15 14:17:37 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 0.45s, 响应大小: 65356字节
+2025-09-15 14:17:37 - request_manager - INFO - 搜索成功: 开普拓, 响应长度: 62968
+2025-09-15 14:17:39 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:17:40 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 1.40s, 响应大小: 264683字节
+2025-09-15 14:17:40 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 响应长度: 223671
+2025-09-15 14:17:41 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 14:19:32 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 14:19:32 - request_manager - INFO - 搜索药品: 开普拓
+2025-09-15 14:19:32 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 0.31s, 响应大小: 65356字节
+2025-09-15 14:19:32 - request_manager - INFO - 搜索成功: 开普拓, 响应长度: 62968
+2025-09-15 14:19:34 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:19:35 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 1.55s, 响应大小: 264683字节
+2025-09-15 14:19:35 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 响应长度: 223671
+2025-09-15 14:19:35 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 14:21:59 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 14:21:59 - request_manager - INFO - 搜索药品: 开普拓
+2025-09-15 14:22:00 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 0.53s, 响应大小: 65356字节
+2025-09-15 14:22:00 - request_manager - INFO - 搜索成功: 开普拓, 响应长度: 62968
+2025-09-15 14:22:02 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:22:02 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 0.82s, 响应大小: 264683字节
+2025-09-15 14:22:02 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 响应长度: 223671
+2025-09-15 14:22:03 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 14:25:11 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 14:25:51 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 14:25:51 - request_manager - INFO - 搜索药品: 开普拓
+2025-09-15 14:25:51 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 0.24s, 响应大小: 65356字节
+2025-09-15 14:25:51 - request_manager - INFO - 搜索成功: 开普拓, 响应长度: 62968
+2025-09-15 14:25:53 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:25:54 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 0.96s, 响应大小: 264683字节
+2025-09-15 14:25:54 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 响应长度: 223671
+2025-09-15 14:30:02 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 14:30:02 - request_manager - INFO - 搜索药品: 开普拓
+2025-09-15 14:30:02 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 0.27s, 响应大小: 65356字节
+2025-09-15 14:30:02 - request_manager - INFO - 搜索成功: 开普拓, 响应长度: 62968
+2025-09-15 14:30:04 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 14:30:07 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 2.94s, 响应大小: 264683字节
+2025-09-15 14:30:07 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 响应长度: 223671
+2025-09-15 16:12:49 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 16:12:49 - request_manager - INFO - 搜索药品: 开普拓
+2025-09-15 16:12:51 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 1.66s, 响应大小: 65356字节
+2025-09-15 16:12:51 - request_manager - INFO - 搜索成功: 开普拓, 响应长度: 62968
+2025-09-15 16:12:59 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:13:00 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 0.14s, 响应大小: 264683字节
+2025-09-15 16:13:00 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 响应长度: 223671
+2025-09-15 16:15:38 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 16:15:38 - request_manager - INFO - 搜索药品: 开普拓
+2025-09-15 16:15:38 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 0.41s, 响应大小: 65356字节
+2025-09-15 16:15:38 - request_manager - INFO - 搜索成功: 开普拓, 响应长度: 62968
+2025-09-15 16:15:40 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:15:41 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 0.87s, 响应大小: 264683字节
+2025-09-15 16:15:41 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 响应长度: 223671
+2025-09-15 16:17:10 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 16:17:11 - request_manager - INFO - 搜索药品: 开普拓
+2025-09-15 16:17:11 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 0.36s, 响应大小: 65356字节
+2025-09-15 16:17:11 - request_manager - INFO - 搜索成功: 开普拓, 响应长度: 62968
+2025-09-15 16:17:13 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:17:13 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 0.59s, 响应大小: 264683字节
+2025-09-15 16:17:13 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 响应长度: 223671
+2025-09-15 16:18:19 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 16:18:20 - request_manager - INFO - 搜索药品: 开普拓
+2025-09-15 16:18:20 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 0.33s, 响应大小: 65356字节
+2025-09-15 16:18:20 - request_manager - INFO - 搜索成功: 开普拓, 响应长度: 62968
+2025-09-15 16:18:22 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:18:22 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 0.55s, 响应大小: 264683字节
+2025-09-15 16:18:22 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 响应长度: 223671
+2025-09-15 16:20:24 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 16:20:25 - request_manager - INFO - 搜索药品: 开普拓
+2025-09-15 16:20:25 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 0.33s, 响应大小: 65356字节
+2025-09-15 16:20:25 - request_manager - INFO - 搜索成功: 开普拓, 响应长度: 62968
+2025-09-15 16:20:26 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:20:29 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 2.40s, 响应大小: 264683字节
+2025-09-15 16:20:29 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 响应长度: 223671
+2025-09-15 16:23:02 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 16:23:03 - request_manager - INFO - 搜索药品: 开普拓
+2025-09-15 16:23:04 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 1.54s, 响应大小: 65356字节
+2025-09-15 16:23:04 - request_manager - INFO - 搜索成功: 开普拓, 响应长度: 62968
+2025-09-15 16:23:06 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:23:07 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 1.34s, 响应大小: 264683字节
+2025-09-15 16:23:07 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 响应长度: 223671
+2025-09-15 16:30:29 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 16:30:29 - request_manager - INFO - 搜索药品: 开普拓
+2025-09-15 16:30:30 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 0.28s, 响应大小: 65356字节
+2025-09-15 16:30:30 - request_manager - INFO - 搜索成功: 开普拓, 响应长度: 62968
+2025-09-15 16:30:33 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:30:33 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 0.21s, 响应大小: 264683字节
+2025-09-15 16:30:33 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 响应长度: 223671
+2025-09-15 16:31:02 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 16:31:03 - request_manager - INFO - 搜索药品: 开普拓
+2025-09-15 16:31:03 - request_manager - DEBUG - 发送GET请求: https://newdrugs.dxy.cn/pc/search?keyword=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:31:03 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 0.46s, 响应大小: 65356字节
+2025-09-15 16:31:03 - request_manager - INFO - 搜索成功: 开普拓, 响应长度: 62968
+2025-09-15 16:31:05 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:31:05 - request_manager - DEBUG - 等待 3.15 秒以控制请求频率
+2025-09-15 16:31:08 - request_manager - DEBUG - 发送GET请求: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93
+2025-09-15 16:31:08 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93 - 状态码: 200, 耗时: 3.29s, 响应大小: 264683字节
+2025-09-15 16:31:08 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E5%BC%80%E6%99%AE%E6%8B%93, 响应长度: 223671
+2025-09-15 16:41:26 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 16:41:26 - request_manager - INFO - 搜索药品: 阿司匹林
+2025-09-15 16:41:26 - request_manager - DEBUG - 发送GET请求: https://newdrugs.dxy.cn/pc/search?keyword=%E9%98%BF%E5%8F%B8%E5%8C%B9%E6%9E%97
+2025-09-15 16:41:26 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E9%98%BF%E5%8F%B8%E5%8C%B9%E6%9E%97 - 状态码: 200, 耗时: 0.29s, 响应大小: 66331字节
+2025-09-15 16:41:26 - request_manager - INFO - 搜索成功: 阿司匹林, 响应长度: 63531
+2025-09-15 16:41:34 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc/drug/yojLj75H-71W5DSC0iJzPNw?ky=%E9%98%BF%E5%8F%B8%E5%8C%B9%E6%9E%97
+2025-09-15 16:41:34 - request_manager - DEBUG - 发送GET请求: https://newdrugs.dxy.cn/pc/drug/yojLj75H-71W5DSC0iJzPNw?ky=%E9%98%BF%E5%8F%B8%E5%8C%B9%E6%9E%97
+2025-09-15 16:41:34 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/drug/yojLj75H-71W5DSC0iJzPNw?ky=%E9%98%BF%E5%8F%B8%E5%8C%B9%E6%9E%97 - 状态码: 200, 耗时: 0.09s, 响应大小: 86883字节
+2025-09-15 16:41:34 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc/drug/yojLj75H-71W5DSC0iJzPNw?ky=%E9%98%BF%E5%8F%B8%E5%8C%B9%E6%9E%97, 响应长度: 76191
+2025-09-15 16:41:34 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 16:48:47 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 16:48:47 - request_manager - INFO - 搜索药品: 拜阿司匹灵
+2025-09-15 16:48:47 - request_manager - DEBUG - 发送GET请求: https://newdrugs.dxy.cn/pc/search?keyword=%E6%8B%9C%E9%98%BF%E5%8F%B8%E5%8C%B9%E7%81%B5
+2025-09-15 16:48:48 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E6%8B%9C%E9%98%BF%E5%8F%B8%E5%8C%B9%E7%81%B5 - 状态码: 200, 耗时: 0.42s, 响应大小: 66386字节
+2025-09-15 16:48:48 - request_manager - INFO - 搜索成功: 拜阿司匹灵, 响应长度: 63622
+2025-09-15 16:48:56 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 16:50:04 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 16:50:04 - request_manager - INFO - 搜索药品: 德曲妥珠
+2025-09-15 16:50:04 - request_manager - DEBUG - 发送GET请求: https://newdrugs.dxy.cn/pc/search?keyword=%E5%BE%B7%E6%9B%B2%E5%A6%A5%E7%8F%A0
+2025-09-15 16:50:04 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E5%BE%B7%E6%9B%B2%E5%A6%A5%E7%8F%A0 - 状态码: 200, 耗时: 0.32s, 响应大小: 62365字节
+2025-09-15 16:50:04 - request_manager - INFO - 搜索成功: 德曲妥珠, 响应长度: 60097
+2025-09-15 16:50:13 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 16:51:43 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 16:51:43 - request_manager - INFO - 搜索药品: 拜阿司匹灵
+2025-09-15 16:51:43 - request_manager - DEBUG - 发送GET请求: https://newdrugs.dxy.cn/pc/search?keyword=%E6%8B%9C%E9%98%BF%E5%8F%B8%E5%8C%B9%E7%81%B5
+2025-09-15 16:51:43 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E6%8B%9C%E9%98%BF%E5%8F%B8%E5%8C%B9%E7%81%B5 - 状态码: 200, 耗时: 0.29s, 响应大小: 66386字节
+2025-09-15 16:51:43 - request_manager - INFO - 搜索成功: 拜阿司匹灵, 响应长度: 63622
+2025-09-15 16:51:47 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 16:52:51 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 16:52:52 - request_manager - INFO - 搜索药品: 拜阿司匹灵
+2025-09-15 16:52:52 - request_manager - DEBUG - 发送GET请求: https://newdrugs.dxy.cn/pc/search?keyword=%E6%8B%9C%E9%98%BF%E5%8F%B8%E5%8C%B9%E7%81%B5
+2025-09-15 16:52:53 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E6%8B%9C%E9%98%BF%E5%8F%B8%E5%8C%B9%E7%81%B5 - 状态码: 200, 耗时: 1.28s, 响应大小: 66386字节
+2025-09-15 16:52:53 - request_manager - INFO - 搜索成功: 拜阿司匹灵, 响应长度: 63622
+2025-09-15 16:53:08 - request_manager - INFO - 请求管理器已关闭
