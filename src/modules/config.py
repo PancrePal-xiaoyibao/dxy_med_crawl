@@ -112,12 +112,60 @@ class Config:
     LOG_FILE_MAX_SIZE: int = 10 * 1024 * 1024  # 10MB
     LOG_FILE_BACKUP_COUNT: int = 5
     
-    # ==================== 数据处理配置 ====================
-    # RAG优化配置
+    # ==================== RAG优化配置 ====================
+    # RAG处理配置
     RAG_CHUNK_SIZE: int = 500  # 每个chunk的字符数
     RAG_CHUNK_OVERLAP: int = 50  # chunk重叠字符数
     RAG_ADD_LINE_NUMBERS: bool = True  # 是否添加行号
     RAG_ADD_CHUNK_MARKERS: bool = True  # 是否添加chunk标记
+    
+    # ==================== LLM集成配置 ====================
+    # Ollama配置
+    OLLAMA_CONFIG: dict = {
+        'enabled': True,
+        'provider': 'ollama',
+        'model': 'qwen3:1.7b',  # 可选: qwen3:1.7b, nomic-embed-text:latest
+        'embed_model': 'nomic-embed-text:latest',  # 嵌入模型
+        'endpoint': 'http://localhost:11434',  # macOS本地环境使用localhost
+        'chunk_optimization': True,
+        'semantic_scoring': True,
+        'timeout': 30,
+        'max_retries': 2
+    }
+    
+    # GLM4.5配置
+    GLM_CONFIG: dict = {
+        'enabled': True,
+        'provider': 'zhipu',
+        'model': 'glm-4.5-airx',  # 或 glm-4.5-plus, glm-4.5-air, glm-4.5-flash
+        'api_key': os.getenv('GLM_API_KEY', ''),
+        'endpoint': 'https://open.bigmodel.cn/api/paas/v4/chat/completions',
+        'temperature': 0.1,
+        'max_tokens': 1000,
+        'chunk_optimization': True,
+        'semantic_scoring': True,
+        'timeout': 30,
+        'max_retries': 2
+    }
+    
+    # 统一LLM配置
+    LLM_CONFIG: dict = {
+        'enabled': True,
+        'primary_provider': 'ollama',  # 主要使用的LLM提供商
+        'fallback_provider': 'zhipu',  # 备用LLM提供商
+        'trigger_conditions': {
+            'complex_content': True,      # 复杂内容自动触发
+            'medical_terms': True,       # 医学术语密集时触发
+            'table_processing': True,    # 表格处理时触发
+            'ambiguous_boundaries': True # 边界模糊时触发
+        },
+        'fallback_mode': 'rule_based',   # LLM失败时回退到规则
+        'cost_control': {
+            'max_tokens_per_chunk': 2000,
+            'daily_limit': 100000
+        },
+        'complexity_threshold': 50  # 复杂度阈值
+    }
     
     # 内容提取配置
     EXTRACT_SECTIONS: List[str] = [

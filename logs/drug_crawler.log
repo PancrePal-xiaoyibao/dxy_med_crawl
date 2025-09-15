@@ -293,3 +293,28 @@
 2025-09-15 16:53:08 - drug_crawler - INFO - 已导出markdown文件: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/25091506/拜阿司匹灵_阿司匹林肠溶片__100mg_20250915_165308.md
 2025-09-15 16:53:08 - drug_crawler - INFO - 导出汇总信息: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/summary_20250915_165308.json
 2025-09-15 16:53:08 - drug_crawler - INFO - 资源清理完成
+2025-09-15 17:22:40 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 17:22:40 - drug_crawler - INFO - 开始搜索药物: 伊立替康
+2025-09-15 17:22:41 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7
+2025-09-15 17:22:52 - drug_crawler - INFO - 传统爬取成功: 伊立替康
+2025-09-15 17:22:52 - drug_crawler - INFO - 药物信息处理完成: 伊立替康
+2025-09-15 17:22:52 - drug_crawler - ERROR - 导出失败: 'DataExporter' object has no attribute 'llm_config'
+2025-09-15 17:22:52 - drug_crawler - INFO - 导出汇总信息: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/summary_20250915_172252.json
+2025-09-15 17:24:22 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 17:24:22 - drug_crawler - INFO - 开始搜索药物: 伊立替康
+2025-09-15 17:24:22 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7
+2025-09-15 17:24:26 - drug_crawler - INFO - 传统爬取成功: 伊立替康
+2025-09-15 17:24:26 - drug_crawler - INFO - 药物信息处理完成: 伊立替康
+2025-09-15 17:24:26 - drug_crawler - INFO - 导出汇总信息: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/summary_20250915_172426.json
+2025-09-15 17:26:20 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 17:26:20 - drug_crawler - INFO - 开始搜索药物: 伊立替康-易安达
+2025-09-15 17:26:20 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7-%E6%98%93%E5%AE%89%E8%BE%BE
+2025-09-15 17:26:27 - drug_crawler - INFO - 传统爬取成功: 伊立替康-易安达
+2025-09-15 17:26:27 - drug_crawler - INFO - 药物信息处理完成: 伊立替康-易安达
+2025-09-15 17:26:50 - drug_crawler - INFO - 导出汇总信息: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/summary_20250915_172650.json
+2025-09-15 17:29:13 - drug_crawler - INFO - 药物爬虫初始化完成
+2025-09-15 17:29:13 - drug_crawler - INFO - 开始搜索药物: 伊立替康-易安达
+2025-09-15 17:29:14 - drug_crawler - INFO - 尝试获取药物详情: https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7-%E6%98%93%E5%AE%89%E8%BE%BE
+2025-09-15 17:29:16 - drug_crawler - INFO - 传统爬取成功: 伊立替康-易安达
+2025-09-15 17:29:16 - drug_crawler - INFO - 药物信息处理完成: 伊立替康-易安达
+2025-09-15 17:29:36 - drug_crawler - INFO - 导出汇总信息: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/summary_20250915_172936.json

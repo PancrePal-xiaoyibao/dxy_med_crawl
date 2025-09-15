@@ -433,6 +433,11 @@ class RAGOptimizer:
         self.config = config
         self.logger = logger.get_logger('rag_optimizer')
         self.performance_logger = logger.get_performance_logger()
+        
+        # LLM配置
+        self.llm_config = getattr(config, 'LLM_CONFIG', {})
+        self.ollama_config = getattr(config, 'OLLAMA_CONFIG', {})
+        self.glm_config = getattr(config, 'GLM_CONFIG', {})
     
     def optimize_for_rag(self, drug_info: DrugInfo) -> Dict[str, Any]:
         """
@@ -654,6 +659,11 @@ class DataExporter:
         """
         self.config = config
         self.logger = logger.get_logger('data_exporter')
+        
+        # 添加LLM配置支持
+        self.llm_config = getattr(config, 'LLM_CONFIG', {})
+        self.ollama_config = getattr(config, 'OLLAMA_CONFIG', {})
+        self.glm_config = getattr(config, 'GLM_CONFIG', {})
         
         # 使用独立目录或默认目录
         if config.USE_INDEPENDENT_DIRS and config.CURRENT_SESSION_DIR:
@@ -915,12 +925,13 @@ class DataExporter:
     
     def _apply_rag_preprocessing(self, content: str) -> str:
         """
-        应用RAG预处理规则
+        应用RAG预处理规则（集成智能触发策略）
         
         功能:
         - 为每行添加行号
         - 智能添加chunk切分标记（确保标题和内容在同一chunk中）
         - 基于语义完整性进行分割
+        - 集成LLM智能触发策略，对复杂内容使用LLM优化
         
         参数:
             content: 原始内容
@@ -947,8 +958,12 @@ class DataExporter:
         
         current_section_lines = []  # 当前章节的行数
         current_section_chars = 0   # 当前章节的字符数
-        max_chunk_size = 800        # 最大chunk字符数
-        min_chunk_size = 200        # 最小chunk字符数
+        max_chunk_size = self.llm_config.get('max_chunk_size', 800)        # 最大chunk字符数
+        min_chunk_size = self.llm_config.get('min_chunk_size', 200)        # 最小chunk字符数
+        
+        # 智能触发统计
+        llm_optimized_chunks = 0
+        total_chunks = 0
         
         for i, line in enumerate(lines):
             # 检查是否是主题分段
@@ -963,11 +978,21 @@ class DataExporter:
             
             # 如果是新章节开始，且当前章节已有足够内容，则分割
             if is_section_start and current_section_lines and current_section_chars >= min_chunk_size:
-                # 添加当前章节内容
-                processed_lines.extend(current_section_lines)
+                # 智能优化当前章节
+                chunk_content = '\n'.join(current_section_lines)
+                optimized_chunk = self._apply_smart_chunking(chunk_content)
+                
+                # 添加优化后的章节内容
+                if optimized_chunk != chunk_content:
+                    llm_optimized_chunks += 1
+                    processed_lines.append("<!-- LLM优化chunk -->")
+                
+                processed_lines.extend(optimized_chunk.split('\n'))
                 processed_lines.append("")
                 processed_lines.append("[CHUNK_BOUNDARY]")
                 processed_lines.append("")
+                
+                total_chunks += 1
                 
                 # 重置当前章节
                 current_section_lines = []
@@ -982,11 +1007,21 @@ class DataExporter:
                 not is_section_start and 
                 len(current_section_lines) > 1):
                 
-                # 添加当前章节内容
-                processed_lines.extend(current_section_lines)
+                # 智能优化当前章节
+                chunk_content = '\n'.join(current_section_lines)
+                optimized_chunk = self._apply_smart_chunking(chunk_content)
+                
+                # 添加优化后的章节内容
+                if optimized_chunk != chunk_content:
+                    llm_optimized_chunks += 1
+                    processed_lines.append("<!-- LLM优化chunk -->")
+                
+                processed_lines.extend(optimized_chunk.split('\n'))
                 processed_lines.append("")
                 processed_lines.append("[CHUNK_BOUNDARY]")
                 processed_lines.append("")
+                
+                total_chunks += 1
                 
                 # 重置当前章节
                 current_section_lines = []
@@ -994,15 +1029,57 @@ class DataExporter:
         
         # 添加最后一个章节的内容
         if current_section_lines:
-            processed_lines.extend(current_section_lines)
+            chunk_content = '\n'.join(current_section_lines)
+            optimized_chunk = self._apply_smart_chunking(chunk_content)
+            
+            if optimized_chunk != chunk_content:
+                llm_optimized_chunks += 1
+                processed_lines.append("<!-- LLM优化chunk -->")
+            
+            processed_lines.extend(optimized_chunk.split('\n'))
+            total_chunks += 1
         
-        # 在文档结束添加总体标记
+        # 在文档结束添加总体标记和统计信息
         processed_lines.append("")
         processed_lines.append("[CHUNK_BOUNDARY]")
         processed_lines.append("")
+        processed_lines.append(f"<!-- 智能分块统计: 总计{total_chunks}个chunk，其中{llm_optimized_chunks}个使用LLM优化 -->")
         processed_lines.append("====== 文档结束 ======")
         
+        # 记录智能触发统计
+        if total_chunks > 0:
+            optimization_rate = (llm_optimized_chunks / total_chunks) * 100
+            self.logger.info(f"智能分块完成: 总计{total_chunks}个chunk，LLM优化率{optimization_rate:.1f}%")
+        
         return '\n'.join(processed_lines)
+    
+    def _apply_smart_chunking(self, chunk_content: str) -> str:
+        """
+        应用智能分块策略
+        
+        Args:
+            chunk_content (str): 原始chunk内容
+        
+        Returns:
+            str: 优化后的chunk内容
+        """
+        # 检查是否需要LLM优化
+        if self.should_use_llm(chunk_content):
+            # 记录复杂度评估结果
+            assessment = self.assess_content_complexity(chunk_content)
+            self.logger.debug(f"触发LLM优化 - 复杂度评分: {assessment['complexity_score']}, 触发条件: {assessment['triggers']}")
+            
+            # 使用LLM优化
+            optimized_content = self.optimize_chunk_semantic(chunk_content)
+            
+            # 验证优化结果
+            if optimized_content and len(optimized_content.strip()) > 0:
+                return optimized_content
+            else:
+                self.logger.warning("LLM优化失败，使用原始内容")
+                return chunk_content
+        
+        return chunk_content
     
     def split_by_chunk_boundaries(self, rag_optimized_content: str) -> List[str]:
         """
@@ -1031,6 +1108,486 @@ class DataExporter:
         
         return cleaned_chunks
     
+    def assess_content_complexity(self, text_chunk: str) -> dict:
+        """
+        评估文本块的复杂度
+        
+        Args:
+            text_chunk (str): 待评估的文本块
+        
+        Returns:
+            dict: 包含复杂度评分和触发条件的字典
+        """
+        complexity_score = 0
+        triggers = []
+        
+        # 1. 医学术语密度检测
+        medical_terms = ['适应症', '禁忌症', '不良反应', '药代动力学', '临床试验', 
+                        '给药方法', '注意事项', '药物相互作用', '毒理学', '药理毒理',
+                        '成分', '性状', '规格', '用法用量', '孕妇', '哺乳期', '儿童用药',
+                        '老年用药', '药物过量', '贮藏', '包装', '有效期', '批准文号']
+        medical_density = sum(1 for term in medical_terms if term in text_chunk) / len(medical_terms)
+        if medical_density > 0.3:
+            complexity_score += 30
+            triggers.append('medical_terms')
+        
+        # 2. 表格结构检测
+        table_indicators = ['|', '┌', '├', '└', '┬', '┼', '┴', '表 ', '表格']
+        if any(indicator in text_chunk for indicator in table_indicators):
+            complexity_score += 25
+            triggers.append('table_processing')
+        
+        # 3. 数值密度检测
+        import re
+        numbers = re.findall(r'\d+(?:\.\d+)?(?:%|mg|ml|g|kg|次|天|小时|分钟|毫升|毫克|克|千克)', text_chunk)
+        if len(numbers) > 5:
+            complexity_score += 20
+            triggers.append('numerical_data')
+        
+        # 4. 句子复杂度检测
+        sentences = text_chunk.split('。')
+        avg_sentence_length = sum(len(s) for s in sentences) / len(sentences) if sentences else 0
+        if avg_sentence_length > 50:
+            complexity_score += 15
+            triggers.append('complex_sentences')
+        
+        # 5. 特殊符号和格式检测
+        special_chars = ['®', '™', '©', '±', '≥', '≤', '→', '↑', '↓', '°C', '℃']
+        if any(char in text_chunk for char in special_chars):
+            complexity_score += 10
+            triggers.append('special_formatting')
+        
+        # 6. 边界模糊性检测
+        boundary_keywords = ['另外', '此外', '同时', '然而', '但是', '因此', '所以', '而且', '并且']
+        boundary_count = sum(1 for keyword in boundary_keywords if keyword in text_chunk)
+        if boundary_count > 2:
+            complexity_score += 15
+            triggers.append('ambiguous_boundaries')
+        
+        return {
+            'complexity_score': complexity_score,
+            'is_complex': complexity_score >= self.llm_config.get('complexity_threshold', 50),
+            'triggers': triggers,
+            'recommendation': 'llm' if complexity_score >= self.llm_config.get('complexity_threshold', 50) else 'rule_based'
+        }
+    
+    def should_use_llm(self, text_chunk: str) -> bool:
+        """
+        判断是否应该使用LLM处理
+        
+        Args:
+            text_chunk (str): 文本块
+        
+        Returns:
+            bool: 是否使用LLM
+        """
+        if not self.llm_config.get('enabled', False):
+            return False
+            
+        assessment = self.assess_content_complexity(text_chunk)
+        return assessment['is_complex']
+    
+    def call_ollama_api(self, prompt: str, model: str = None) -> str:
+        """
+        调用Ollama API进行文本生成
+        
+        Args:
+            prompt (str): 输入提示
+            model (str): 模型名称，默认使用配置中的模型
+        
+        Returns:
+            str: 生成的文本（已清理LLM思考标签）
+        """
+        import requests
+        import json
+        
+        model = model or self.ollama_config.get('model', 'qwen2.5:1.5b')
+        endpoint = self.ollama_config.get('endpoint', 'http://localhost:11434')
+        
+        try:
+            response = requests.post(
+                f"{endpoint}/api/generate",
+                json={
+                    "model": model,
+                    "prompt": prompt,
+                    "stream": False,
+                    "options": {
+                        "temperature": self.ollama_config.get('temperature', 0.3),
+                        "num_predict": self.ollama_config.get('max_tokens', 1000)
+                    }
+                },
+                timeout=self.ollama_config.get('timeout', 30)
+            )
+            response.raise_for_status()
+            raw_response = response.json().get('response', '')
+            # 清理LLM思考标签和其他不需要的内容
+            return self._clean_llm_response(raw_response)
+        except Exception as e:
+            self.logger.error(f"Ollama API调用失败: {e}")
+            return ""
+    
+    def call_glm_api(self, prompt: str, model: str = None) -> str:
+        """
+        调用GLM4.5 API进行文本生成
+        
+        Args:
+            prompt (str): 输入提示
+            model (str): 模型名称，默认使用配置中的模型
+        
+        Returns:
+            str: 生成的文本（已清理LLM思考标签）
+        """
+        import requests
+        import json
+        
+        model = model or self.glm_config.get('model', 'glm-4.5-airx')
+        api_key = self.glm_config.get('api_key')
+        endpoint = self.glm_config.get('endpoint', 'https://open.bigmodel.cn/api/paas/v4/chat/completions')
+        
+        if not api_key:
+            self.logger.error("GLM API密钥未配置")
+            return ""
+        
+        try:
+            response = requests.post(
+                endpoint,
+                headers={
+                    "Authorization": f"Bearer {api_key}",
+                    "Content-Type": "application/json"
+                },
+                json={
+                    "model": model,
+                    "messages": [
+                        {"role": "user", "content": prompt}
+                    ],
+                    "temperature": self.glm_config.get('temperature', 0.3),
+                    "max_tokens": self.glm_config.get('max_tokens', 1000)
+                },
+                timeout=self.glm_config.get('timeout', 30)
+            )
+            response.raise_for_status()
+            raw_response = response.json()['choices'][0]['message']['content']
+            # 清理LLM思考标签和其他不需要的内容
+            return self._clean_llm_response(raw_response)
+        except Exception as e:
+            self.logger.error(f"GLM API调用失败: {e}")
+            return ""
+    
+    def _clean_llm_response(self, response: str) -> str:
+        """
+        清理LLM响应中的思考标签和其他不需要的内容
+        
+        Args:
+            response (str): LLM原始响应
+        
+        Returns:
+            str: 清理后的响应内容
+        """
+        import re
+        
+        if not response:
+            return response
+        
+        # 移除<think>...</think>标签及其内容
+        response = re.sub(r'<think>.*?</think>', '', response, flags=re.DOTALL)
+        
+        # 移除其他可能的思考标签
+        response = re.sub(r'<thinking>.*?</thinking>', '', response, flags=re.DOTALL)
+        response = re.sub(r'<thought>.*?</thought>', '', response, flags=re.DOTALL)
+        
+        # 清理多余的空行和空格
+        response = re.sub(r'\n\s*\n\s*\n', '\n\n', response)  # 多个空行合并为两个
+        response = response.strip()
+        
+        return response
+    
+    def get_text_embeddings(self, text: str, model: str = None) -> list:
+        """
+        获取文本嵌入向量
+        
+        Args:
+            text (str): 输入文本
+            model (str): 嵌入模型名称
+        
+        Returns:
+            list: 嵌入向量
+        """
+        import requests
+        
+        model = model or self.ollama_config.get('embedding_model', 'nomic-embed-text:latest')
+        endpoint = self.ollama_config.get('endpoint', 'http://localhost:11434')
+        
+        try:
+            response = requests.post(
+                f"{endpoint}/api/embeddings",
+                json={
+                    "model": model,
+                    "prompt": text
+                },
+                timeout=self.ollama_config.get('timeout', 30)
+            )
+            response.raise_for_status()
+            return response.json().get('embedding', [])
+        except Exception as e:
+            self.logger.error(f"嵌入向量获取失败: {e}")
+            return []
+    
+    def optimize_chunk_semantic(self, text_chunk: str) -> str:
+        """
+        使用LLM优化chunk的语义边界
+        
+        Args:
+            text_chunk (str): 原始文本块
+        
+        Returns:
+            str: 优化后的文本块
+        """
+        if not self.should_use_llm(text_chunk):
+            return text_chunk
+        
+        prompt = f"""
+请优化以下医药说明书文本块的语义边界，确保：
+1. 保持完整的语义单元
+2. 避免在句子中间截断
+3. 保持医学术语的完整性
+4. 优化表格和列表的结构
+
+原始文本：
+{text_chunk}
+
+请返回优化后的文本块：
+"""
+        
+        # 优先使用主要提供商
+        primary_provider = self.llm_config.get('primary_provider', 'ollama')
+        
+        if primary_provider == 'ollama':
+            result = self.call_ollama_api(prompt)
+            if not result and self.llm_config.get('fallback_enabled', True):
+                # 回退到GLM
+                result = self.call_glm_api(prompt)
+        else:
+            result = self.call_glm_api(prompt)
+            if not result and self.llm_config.get('fallback_enabled', True):
+                # 回退到Ollama
+                result = self.call_ollama_api(prompt)
+        
+        return result if result else text_chunk
+    
+    def select_optimal_model(self, task_type: str, content_complexity: dict = None) -> dict:
+        """
+        根据任务类型和内容复杂度选择最优模型
+        
+        Args:
+            task_type (str): 任务类型 ('generation', 'embedding', 'analysis')
+            content_complexity (dict): 内容复杂度评估结果
+        
+        Returns:
+            dict: 包含提供商和模型信息的字典
+        """
+        complexity_score = content_complexity.get('complexity_score', 0) if content_complexity else 0
+        
+        if task_type == 'generation':
+            # 文本生成任务
+            if complexity_score >= 70:  # 高复杂度
+                return {
+                    'provider': 'glm',
+                    'model': self.glm_config.get('model', 'glm-4.5-airx'),
+                    'reason': '高复杂度内容，使用GLM4.5获得更好的理解能力'
+                }
+            elif complexity_score >= 50:  # 中等复杂度
+                primary = self.llm_config.get('primary_provider', 'ollama')
+                if primary == 'ollama':
+                    return {
+                        'provider': 'ollama',
+                        'model': self.ollama_config.get('model', 'qwen2.5:1.5b'),
+                        'reason': '中等复杂度内容，使用本地模型平衡性能和成本'
+                    }
+                else:
+                    return {
+                        'provider': 'glm',
+                        'model': self.glm_config.get('model', 'glm-4.5-airx'),
+                        'reason': '中等复杂度内容，使用云端模型'
+                    }
+            else:  # 低复杂度
+                return {
+                    'provider': 'ollama',
+                    'model': self.ollama_config.get('model', 'qwen2.5:1.5b'),
+                    'reason': '低复杂度内容，使用本地模型节省成本'
+                }
+        
+        elif task_type == 'embedding':
+            # 嵌入任务
+            return {
+                'provider': 'ollama',
+                'model': self.ollama_config.get('embedding_model', 'nomic-embed-text:latest'),
+                'reason': '嵌入任务使用专用嵌入模型'
+            }
+        
+        elif task_type == 'analysis':
+            # 分析任务
+            return {
+                'provider': 'ollama',
+                'model': self.ollama_config.get('model', 'qwen2.5:1.5b'),
+                'reason': '分析任务使用本地模型快速处理'
+            }
+        
+        # 默认返回
+        return {
+            'provider': 'ollama',
+            'model': self.ollama_config.get('model', 'qwen2.5:1.5b'),
+            'reason': '默认选择'
+        }
+    
+    def enhanced_text_embeddings(self, texts: list, batch_size: int = 10) -> list:
+        """
+        增强的文本嵌入功能，支持批量处理
+        
+        Args:
+            texts (list): 文本列表
+            batch_size (int): 批处理大小
+        
+        Returns:
+            list: 嵌入向量列表
+        """
+        embeddings = []
+        
+        for i in range(0, len(texts), batch_size):
+            batch = texts[i:i + batch_size]
+            batch_embeddings = []
+            
+            for text in batch:
+                if not text or not text.strip():
+                    batch_embeddings.append([])
+                    continue
+                
+                # 选择最优嵌入模型
+                model_info = self.select_optimal_model('embedding')
+                embedding = self.get_text_embeddings(text, model_info['model'])
+                batch_embeddings.append(embedding)
+            
+            embeddings.extend(batch_embeddings)
+            
+            # 记录进度
+            if len(texts) > batch_size:
+                progress = min(i + batch_size, len(texts))
+                self.logger.debug(f"嵌入进度: {progress}/{len(texts)}")
+        
+        return embeddings
+    
+    def calculate_semantic_similarity(self, text1: str, text2: str) -> float:
+        """
+        计算两个文本的语义相似度
+        
+        Args:
+            text1 (str): 文本1
+            text2 (str): 文本2
+        
+        Returns:
+            float: 相似度分数 (0-1)
+        """
+        try:
+            # 获取嵌入向量
+            embedding1 = self.get_text_embeddings(text1)
+            embedding2 = self.get_text_embeddings(text2)
+            
+            if not embedding1 or not embedding2:
+                return 0.0
+            
+            # 计算余弦相似度
+            import numpy as np
+            
+            vec1 = np.array(embedding1)
+            vec2 = np.array(embedding2)
+            
+            # 计算余弦相似度
+            dot_product = np.dot(vec1, vec2)
+            norm1 = np.linalg.norm(vec1)
+            norm2 = np.linalg.norm(vec2)
+            
+            if norm1 == 0 or norm2 == 0:
+                return 0.0
+            
+            similarity = dot_product / (norm1 * norm2)
+            return float(similarity)
+            
+        except Exception as e:
+            self.logger.error(f"语义相似度计算失败: {e}")
+            return 0.0
+    
+    def adaptive_chunk_optimization(self, text_chunk: str) -> str:
+        """
+        自适应chunk优化，根据内容特征选择最佳处理策略
+        
+        Args:
+            text_chunk (str): 原始文本块
+        
+        Returns:
+            str: 优化后的文本块
+        """
+        # 评估内容复杂度
+        complexity = self.assess_content_complexity(text_chunk)
+        
+        # 选择最优模型
+        model_info = self.select_optimal_model('generation', complexity)
+        
+        # 记录模型选择
+        self.logger.debug(f"自适应优化 - 选择{model_info['provider']}模型: {model_info['reason']}")
+        
+        # 根据复杂度调整优化策略
+        if complexity['complexity_score'] >= 70:
+            # 高复杂度：使用详细的优化提示
+            prompt = f"""
+作为医药文档处理专家，请优化以下高复杂度文本块：
+
+原始文本：
+{text_chunk}
+
+优化要求：
+1. 保持医学术语的准确性和完整性
+2. 优化表格和数据结构的可读性
+3. 确保语义边界的完整性
+4. 保持专业性和权威性
+5. 优化数值和单位的表达
+
+请返回优化后的文本：
+"""
+        elif complexity['complexity_score'] >= 50:
+            # 中等复杂度：使用标准优化提示
+            prompt = f"""
+请优化以下医药说明书文本块的语义边界和结构：
+
+原始文本：
+{text_chunk}
+
+优化要求：
+1. 保持完整的语义单元
+2. 优化医学术语的表达
+3. 确保信息的准确性
+
+请返回优化后的文本：
+"""
+        else:
+            # 低复杂度：使用简单优化或直接返回
+            if not self.llm_config.get('optimize_simple_content', False):
+                return text_chunk
+            
+            prompt = f"""
+请简单优化以下文本的格式和可读性：
+
+{text_chunk}
+
+请返回优化后的文本：
+"""
+        
+        # 调用相应的API
+        if model_info['provider'] == 'glm':
+            result = self.call_glm_api(prompt, model_info['model'])
+        else:
+            result = self.call_ollama_api(prompt, model_info['model'])
+        
+        return result if result else text_chunk
+
     def get_chunk_info(self, rag_optimized_filepath: str) -> dict:
         """
         获取RAG优化文件的chunk信息

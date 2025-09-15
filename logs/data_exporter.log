@@ -132,3 +132,30 @@
 2025-09-15 16:53:08 - data_exporter - INFO - 成功导出markdown文件: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/25091506/拜阿司匹灵_阿司匹林肠溶片__100mg_20250915_165308.md
 2025-09-15 16:53:08 - data_exporter - INFO - RAG预处理完成: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/25091506/拜阿司匹灵_阿司匹林肠溶片__100mg_20250915_165308_optimized.md
 2025-09-15 16:53:08 - data_exporter - INFO - 成功生成RAG优化文件: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/25091506/拜阿司匹灵_阿司匹林肠溶片__100mg_20250915_165308_optimized.md
+2025-09-15 17:22:52 - data_exporter - INFO - 导出药物信息: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/25091505/开普拓_盐酸伊立替康注射液__20250915_172252.json
+2025-09-15 17:22:52 - data_exporter - INFO - 导出药物信息: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/25091505/开普拓_盐酸伊立替康注射液__20250915_172252.md
+2025-09-15 17:22:52 - data_exporter - ERROR - RAG预处理失败: 'DataExporter' object has no attribute 'llm_config'
+2025-09-15 17:22:52 - data_exporter - ERROR - 导出药物信息失败: 'DataExporter' object has no attribute 'llm_config'
+2025-09-15 17:24:26 - data_exporter - INFO - 导出药物信息: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/25091512/开普拓_盐酸伊立替康注射液__20250915_172426.json
+2025-09-15 17:24:26 - data_exporter - INFO - 导出药物信息: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/25091512/开普拓_盐酸伊立替康注射液__20250915_172426.md
+2025-09-15 17:24:26 - data_exporter - ERROR - Ollama API调用失败: HTTPConnectionPool(host='host.docker.internal', port=11434): Max retries exceeded with url: /api/generate (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x11fa258d0>: Failed to resolve 'host.docker.internal' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-09-15 17:24:26 - data_exporter - ERROR - GLM API密钥未配置
+2025-09-15 17:24:26 - data_exporter - INFO - 智能分块完成: 总计5个chunk，LLM优化率0.0%
+2025-09-15 17:24:26 - data_exporter - INFO - RAG预处理完成: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/25091512/开普拓_盐酸伊立替康注射液__20250915_172426_optimized.md
+2025-09-15 17:24:26 - data_exporter - INFO - 生成RAG优化文件: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/25091512/开普拓_盐酸伊立替康注射液__20250915_172426_optimized.md
+2025-09-15 17:24:26 - data_exporter - INFO - Chunk分析结果: 共6个chunk, 平均大小2040字符
+2025-09-15 17:24:26 - data_exporter - INFO - Chunk大小分布: [404, 498, 10347, 740, 191, 57]
+2025-09-15 17:26:27 - data_exporter - INFO - 导出药物信息: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/25091519/易安达_盐酸伊立替康脂质体注射液__20250915_172627.json
+2025-09-15 17:26:27 - data_exporter - INFO - 导出药物信息: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/25091519/易安达_盐酸伊立替康脂质体注射液__20250915_172627.md
+2025-09-15 17:26:50 - data_exporter - INFO - 智能分块完成: 总计3个chunk，LLM优化率33.3%
+2025-09-15 17:26:50 - data_exporter - INFO - RAG预处理完成: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/25091519/易安达_盐酸伊立替康脂质体注射液__20250915_172627_optimized.md
+2025-09-15 17:26:50 - data_exporter - INFO - 生成RAG优化文件: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/25091519/易安达_盐酸伊立替康脂质体注射液__20250915_172627_optimized.md
+2025-09-15 17:26:50 - data_exporter - INFO - Chunk分析结果: 共4个chunk, 平均大小720字符
+2025-09-15 17:26:50 - data_exporter - INFO - Chunk大小分布: [915, 1541, 366, 57]
+2025-09-15 17:29:16 - data_exporter - INFO - 导出药物信息: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/25091503/易安达_盐酸伊立替康脂质体注射液__20250915_172916.json
+2025-09-15 17:29:16 - data_exporter - INFO - 导出药物信息: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/25091503/易安达_盐酸伊立替康脂质体注射液__20250915_172916.md
+2025-09-15 17:29:36 - data_exporter - INFO - 智能分块完成: 总计3个chunk，LLM优化率33.3%
+2025-09-15 17:29:36 - data_exporter - INFO - RAG预处理完成: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/25091503/易安达_盐酸伊立替康脂质体注射液__20250915_172916_optimized.md
+2025-09-15 17:29:36 - data_exporter - INFO - 生成RAG优化文件: /Users/qinxiaoqiang/Downloads/丁香园pc助手说明书获取/output/25091503/易安达_盐酸伊立替康脂质体注射液__20250915_172916_optimized.md
+2025-09-15 17:29:36 - data_exporter - INFO - Chunk分析结果: 共4个chunk, 平均大小398字符
+2025-09-15 17:29:36 - data_exporter - INFO - Chunk大小分布: [915, 253, 366, 57]

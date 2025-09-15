@@ -1,0 +1,21 @@
+{
+  "crawl_summary": {
+    "total_searched": 1,
+    "total_found": 1,
+    "total_processed": 1,
+    "total_exported": 1,
+    "errors": 0,
+    "start_time": null,
+    "end_time": null
+  },
+  "total_drugs": 1,
+  "drugs": [
+    {
+      "name": "易安达（盐酸伊立替康脂质体注射液）",
+      "generic_name": "",
+      "manufacturer": "",
+      "quality_score": 45.6,
+      "source_url": "https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7-%E6%98%93%E5%AE%89%E8%BE%BE"
+    }
+  ]
+}

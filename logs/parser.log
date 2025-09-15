@@ -314,3 +314,23 @@
 2025-09-15 16:52:53 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<h3 class="DrugsItem_drugs-item-name__ttrZ7"><span><font color="#7753ff">阿司匹林肠溶片</font>（北京曙光） 40mg</span></h3>'}
 2025-09-15 16:52:53 - parser - DEBUG - 卡片信息不完整: {'raw_html': '<p class="DrugsItem_drugs-item-cnName__UrsBu">厂商：<span>北京曙光药业有限责任公司</span>\xa0\xa0\xa0<!-- -->成分：<span>本品主要成份为：阿司匹林</span></p>'}
 2025-09-15 16:52:53 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 17:22:40 - parser - INFO - 页面解析器初始化完成
+2025-09-15 17:22:41 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 17:22:41 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 17:22:52 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7
+2025-09-15 17:22:52 - parser - INFO - 药物详情解析完成: 开普拓（盐酸伊立替康注射液）
+2025-09-15 17:24:22 - parser - INFO - 页面解析器初始化完成
+2025-09-15 17:24:22 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 17:24:22 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 17:24:26 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7
+2025-09-15 17:24:26 - parser - INFO - 药物详情解析完成: 开普拓（盐酸伊立替康注射液）
+2025-09-15 17:26:19 - parser - INFO - 页面解析器初始化完成
+2025-09-15 17:26:20 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 17:26:20 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 17:26:27 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7-%E6%98%93%E5%AE%89%E8%BE%BE
+2025-09-15 17:26:27 - parser - INFO - 药物详情解析完成: 易安达（盐酸伊立替康脂质体注射液）
+2025-09-15 17:29:13 - parser - INFO - 页面解析器初始化完成
+2025-09-15 17:29:14 - parser - INFO - 开始解析搜索结果页面
+2025-09-15 17:29:14 - parser - INFO - 解析完成，找到 4 个药物
+2025-09-15 17:29:16 - parser - INFO - 开始解析药物详情页面: https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7-%E6%98%93%E5%AE%89%E8%BE%BE
+2025-09-15 17:29:16 - parser - INFO - 药物详情解析完成: 易安达（盐酸伊立替康脂质体注射液）

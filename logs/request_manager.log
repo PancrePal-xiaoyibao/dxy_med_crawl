@@ -350,3 +350,31 @@
 2025-09-15 16:52:53 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E6%8B%9C%E9%98%BF%E5%8F%B8%E5%8C%B9%E7%81%B5 - 状态码: 200, 耗时: 1.28s, 响应大小: 66386字节
 2025-09-15 16:52:53 - request_manager - INFO - 搜索成功: 拜阿司匹灵, 响应长度: 63622
 2025-09-15 16:53:08 - request_manager - INFO - 请求管理器已关闭
+2025-09-15 17:22:40 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 17:22:40 - request_manager - INFO - 搜索药品: 伊立替康
+2025-09-15 17:22:41 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 1.50s, 响应大小: 65269字节
+2025-09-15 17:22:41 - request_manager - INFO - 搜索成功: 伊立替康, 响应长度: 62921
+2025-09-15 17:22:52 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7
+2025-09-15 17:22:52 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 0.14s, 响应大小: 264707字节
+2025-09-15 17:22:52 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7, 响应长度: 223691
+2025-09-15 17:24:22 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 17:24:22 - request_manager - INFO - 搜索药品: 伊立替康
+2025-09-15 17:24:22 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 0.35s, 响应大小: 65269字节
+2025-09-15 17:24:22 - request_manager - INFO - 搜索成功: 伊立替康, 响应长度: 62921
+2025-09-15 17:24:24 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7
+2025-09-15 17:24:26 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7 - 状态码: 200, 耗时: 2.19s, 响应大小: 264707字节
+2025-09-15 17:24:26 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7, 响应长度: 223691
+2025-09-15 17:26:19 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 17:26:20 - request_manager - INFO - 搜索药品: 伊立替康-易安达
+2025-09-15 17:26:20 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7-%E6%98%93%E5%AE%89%E8%BE%BE - 状态码: 200, 耗时: 0.64s, 响应大小: 66219字节
+2025-09-15 17:26:20 - request_manager - INFO - 搜索成功: 伊立替康-易安达, 响应长度: 63811
+2025-09-15 17:26:26 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7-%E6%98%93%E5%AE%89%E8%BE%BE
+2025-09-15 17:26:27 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7-%E6%98%93%E5%AE%89%E8%BE%BE - 状态码: 200, 耗时: 0.10s, 响应大小: 148017字节
+2025-09-15 17:26:27 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7-%E6%98%93%E5%AE%89%E8%BE%BE, 响应长度: 123145
+2025-09-15 17:29:13 - request_manager - INFO - 请求管理器初始化完成
+2025-09-15 17:29:13 - request_manager - INFO - 搜索药品: 伊立替康-易安达
+2025-09-15 17:29:14 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/search?keyword=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7-%E6%98%93%E5%AE%89%E8%BE%BE - 状态码: 200, 耗时: 0.28s, 响应大小: 66219字节
+2025-09-15 17:29:14 - request_manager - INFO - 搜索成功: 伊立替康-易安达, 响应长度: 63811
+2025-09-15 17:29:15 - request_manager - INFO - 获取药品详情: https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7-%E6%98%93%E5%AE%89%E8%BE%BE
+2025-09-15 17:29:16 - request_manager - INFO - 请求完成: GET https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7-%E6%98%93%E5%AE%89%E8%BE%BE - 状态码: 200, 耗时: 1.02s, 响应大小: 148017字节
+2025-09-15 17:29:16 - request_manager - INFO - 获取详情成功: https://newdrugs.dxy.cn/pc/drug/yX_cNIfiMy3fFKWqn3iwJLQ?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7-%E6%98%93%E5%AE%89%E8%BE%BE, 响应长度: 123145

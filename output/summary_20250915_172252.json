@@ -1,0 +1,21 @@
+{
+  "crawl_summary": {
+    "total_searched": 1,
+    "total_found": 1,
+    "total_processed": 1,
+    "total_exported": 0,
+    "errors": 0,
+    "start_time": null,
+    "end_time": null
+  },
+  "total_drugs": 1,
+  "drugs": [
+    {
+      "name": "开普拓（盐酸伊立替康注射液）",
+      "generic_name": "",
+      "manufacturer": "Zydus Hospira Oncology Pvt Ltd Zydus Hospira Oncology Pvt Ltd",
+      "quality_score": 57.60000000000001,
+      "source_url": "https://newdrugs.dxy.cn/pc/drug/yAvngza6SatotKEq5ojVf6Q?ky=%E4%BC%8A%E7%AB%8B%E6%9B%BF%E5%BA%B7"
+    }
+  ]
+}
